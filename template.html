@@ -1,0 +1,315 @@
+<meta charset="utf-8">
+<title>T21 Asok Vivo Lineup</title>
+<meta name="description" content="Terminal 21 Asok イベント在庫の Vivobarefoot 全モデル。特徴・説明・画像・販売価格・サイズ別数量">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#EEF0EC; --surface:#FFFFFF; --sunk:#E3E6E0; --ink:#171A18; --muted:#5B635D; --line:#D3D8D1;
+  --accent:#2F5D45; --accent-ink:#FFFFFF; --sale:#B8401F; --sale-soft:#F7E3DB; --photo:#FFFFFF;
+  --chip:#E6EAE4; --focus:#2F5D45;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#111412; --surface:#1A1E1B; --sunk:#232824; --ink:#E6EAE5; --muted:#9BA59D; --line:#2E3530;
+    --accent:#8FC3A2; --accent-ink:#0F1A13; --sale:#F08A66; --sale-soft:#3A2219; --photo:#F4F5F2;
+    --chip:#252B27; --focus:#8FC3A2;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#111412; --surface:#1A1E1B; --sunk:#232824; --ink:#E6EAE5; --muted:#9BA59D; --line:#2E3530;
+  --accent:#8FC3A2; --accent-ink:#0F1A13; --sale:#F08A66; --sale-soft:#3A2219; --photo:#F4F5F2;
+  --chip:#252B27; --focus:#8FC3A2;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.6;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:1240px;margin:0 auto}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 32px;padding-block:28px 18px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);line-height:.95;letter-spacing:.01em;margin:6px 0 0;text-transform:uppercase;text-wrap:balance}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:30px;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--muted)}
+.stat.sale b{color:var(--sale)}
+
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.seg{display:inline-flex;background:var(--sunk);border-radius:8px;padding:3px;gap:2px}
+.seg button{border:0;background:transparent;padding:5px 11px;border-radius:6px;cursor:pointer;font-size:13px;color:var(--muted);white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:500;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.search{flex:1 1 180px;max-width:280px;margin-left:auto}
+.search input{width:100%;padding:7px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+.cat{margin-top:30px}
+.cat h2{display:flex;align-items:baseline;gap:12px;font-family:var(--display);font-weight:600;font-size:24px;letter-spacing:.04em;text-transform:uppercase;margin:0 0 12px}
+.cat h2 small{font-family:var(--body);font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.photo{position:relative;background:var(--photo);aspect-ratio:4/3;max-width:100%;display:flex;align-items:center;justify-content:center;cursor:zoom-in;border:0;padding:0;width:100%}
+.photo img{width:100%;height:100%;object-fit:contain;padding:8px}
+.badge{position:absolute;top:10px;left:10px;font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.04em;background:var(--sale);color:#fff;padding:2px 8px;border-radius:4px}
+.refnote{position:absolute;bottom:8px;right:8px;font-size:10.5px;background:rgba(0,0,0,.6);color:#fff;padding:1px 6px;border-radius:3px}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.name{font-family:var(--display);font-weight:700;font-size:23px;line-height:1.05;text-transform:uppercase;letter-spacing:.02em;margin:0}
+.jname{font-size:12px;color:var(--muted);margin-top:2px}
+.tag{font-size:13px;font-weight:500;line-height:1.5;margin:0}
+.swatches{display:flex;flex-wrap:wrap;gap:6px}
+.sw{width:50px;height:40px;border-radius:6px;border:1.5px solid var(--line);background:var(--photo);padding:0;cursor:pointer;position:relative;overflow:hidden}
+.sw img{width:100%;height:100%;object-fit:contain}
+.sw[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.sw i{position:absolute;right:1px;bottom:0;font-style:normal;font-family:var(--mono);font-size:9px;color:#333;background:rgba(255,255,255,.85);padding:0 2px;border-radius:2px}
+.cwname{font-size:13px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.cwname b{font-weight:500}
+.gpill{font-family:var(--mono);font-size:11px;padding:0 6px;border-radius:3px;background:var(--chip);color:var(--muted)}
+.price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price .now{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
+.price .now.s{color:var(--sale)}
+.price .was{font-family:var(--mono);font-size:13px;color:var(--muted);text-decoration:line-through}
+.price .unit{font-size:12px;color:var(--muted)}
+.sizes{display:flex;flex-wrap:wrap;gap:5px}
+.sz{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-variant-numeric:tabular-nums}
+.sz b{font-weight:500}
+.sz span{color:var(--muted)}
+.more{margin-top:auto;align-self:flex-start;border:1px solid var(--ink);background:transparent;border-radius:6px;padding:6px 12px;cursor:pointer;font-size:13px}
+.more:hover{background:var(--ink);color:var(--surface)}
+.empty{padding:40px 0;color:var(--muted)}
+
+dialog{border:0;padding:0;border-radius:12px;background:var(--surface);color:var(--ink);width:min(1000px,calc(100vw - 32px));max-height:calc(100vh - 40px)}
+dialog::backdrop{background:rgba(10,14,11,.55)}
+.dlg{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.gal{background:var(--photo);padding:16px;display:flex;flex-direction:column;gap:10px}
+.gal .main{aspect-ratio:1/1;max-width:100%;display:flex;align-items:center;justify-content:center}
+.gal .main img{max-height:100%;object-fit:contain}
+.thumbs{display:flex;gap:6px;flex-wrap:wrap}
+.thumbs button{width:64px;height:54px;border:1.5px solid #DDD;border-radius:6px;background:#fff;padding:0;cursor:pointer}
+.thumbs button[aria-pressed="true"]{border-color:#171A18}
+.thumbs img{width:100%;height:100%;object-fit:contain}
+.info{padding:22px 24px 24px;overflow:auto;display:flex;flex-direction:column;gap:16px}
+.info .close{position:sticky;top:0;align-self:flex-end;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:4px 10px;cursor:pointer;margin-bottom:-36px}
+.info h3{font-family:var(--display);font-weight:700;font-size:32px;line-height:1;text-transform:uppercase;margin:0;padding-right:70px}
+.lead{font-size:14px;margin:0}
+.lead.en{color:var(--muted);font-size:13px}
+.sec{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.specs div{background:var(--surface);padding:8px 10px}
+.specs dt{font-size:11px;color:var(--muted)}
+.specs dd{margin:0;font-family:var(--display);font-size:20px;font-weight:600;line-height:1.2}
+.feats{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.feats li{padding-left:14px;position:relative;font-size:13px}
+.feats li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.feats b{font-weight:500;display:block}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-weight:500;color:var(--muted);font-size:11.5px}
+td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+td.m{font-family:var(--mono);font-size:11.5px}
+tr.cur td{background:var(--chip)}
+.links{display:flex;gap:12px;flex-wrap:wrap;font-size:13px}
+.links a{color:var(--accent)}
+.note{font-size:12px;color:var(--muted);background:var(--sunk);padding:8px 10px;border-radius:6px}
+footer{margin-top:40px;font-size:12px;color:var(--muted);max-width:760px;display:flex;flex-direction:column;gap:4px}
+@media (max-width:760px){
+  .dlg{grid-template-columns:1fr}
+  .gal .main{aspect-ratio:4/3}
+  .search{max-width:none;margin-left:0}
+}
+@media (prefers-reduced-motion:no-preference){.sw,.more,.seg button{transition:all .12s}}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div>
+    <div class="eyebrow">Terminal 21 Asok · Event stock · Vivobarefoot</div>
+    <h1>Vivo lineup at T21 Asok</h1>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="bar" role="toolbar" aria-label="絞り込み">
+  <div class="seg" id="f-tier" aria-label="価格">
+    <button data-v="all" aria-pressed="true">すべて</button>
+    <button data-v="sale" aria-pressed="false">20% OFF</button>
+    <button data-v="full" aria-pressed="false">定価</button>
+  </div>
+  <div class="seg" id="f-g" aria-label="性別">
+    <button data-v="all" aria-pressed="true">W / M</button>
+    <button data-v="W" aria-pressed="false">Women</button>
+    <button data-v="M" aria-pressed="false">Men</button>
+  </div>
+  <div class="seg" id="f-cat" aria-label="カテゴリ">
+    <button data-v="all" aria-pressed="true">全カテゴリ</button>
+    <button data-v="training" aria-pressed="false">Training</button>
+    <button data-v="running" aria-pressed="false">Running</button>
+    <button data-v="trail" aria-pressed="false">Trail</button>
+    <button data-v="everyday" aria-pressed="false">Everyday</button>
+  </div>
+  <label class="search"><input id="q" type="search" placeholder="モデル名・カラー・SKU・サイズ(例: 38)" aria-label="検索"></label>
+  <span class="count" id="count"></span>
+</div>
+
+<main id="list"></main>
+
+<footer>
+  <div>価格: <b>VivoT21Asok Stock.xlsx</b> の「Discout 20%」シート(Price THB と Discunt 20%)と「Normal Price」シート(Price THB)。数量は各シートの Quantity 列。</div>
+  <div>説明・特徴: vivobarefoot.co.jp(日本語)と vivobarefoot.com/rw(英語)の商品ページ。画像は両サイトの商品画像。ソール厚・ラグ深さ・フィットはグローバルサイト、重量は日本サイトの表記。</div>
+  <div>公式サイトに掲載が終わった旧モデル(Motus Strength、Primus Lite 3.5 など)は日本サイトの情報のみ。</div>
+</footer>
+</div>
+
+<dialog id="dlg" aria-label="モデル詳細"></dialog>
+
+<script>
+const DATA = /*DATA*/;
+const CAT = {training:["Training","筋トレ・ジム・クロストレーニング"],running:["Running","ロード・トレッドミル"],trail:["Trail","トレイル・アウトドア"],everyday:["Everyday","街履き・オフィス"]};
+const GL = {W:"Women",M:"Men"};
+const st = {tier:"all", g:"all", cat:"all", q:""};
+const sel = {};   // model name -> selected colourway code
+const fmt = n => n.toLocaleString("en-US");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pairs = cw => cw.sizes.reduce((a,s)=>a+s.q,0);
+const fitJa = f => !f ? "" : /large/i.test(f) ? "大きめ(1サイズ下を推奨)" : /true/i.test(f) ? "標準" : f;
+
+function cwMatch(m, cw){
+  if (st.tier !== "all" && cw.tier !== st.tier) return false;
+  if (st.g !== "all" && cw.g !== st.g) return false;
+  if (st.cat !== "all" && m.cat !== st.cat) return false;
+  const q = st.q.trim().toLowerCase();
+  if (!q) return true;
+  if (/^\d{2}$/.test(q)) return cw.sizes.some(s => s.s === q);
+  const hay = [m.name, m.jp_title, cw.colour, cw.code, ...cw.sizes.map(s=>s.sku+" "+s.bc)].join(" ").toLowerCase();
+  return q.split(/\s+/).every(t => hay.includes(t));
+}
+
+function renderStats(){
+  const all = DATA.flatMap(m=>m.cw);
+  const sale = all.filter(c=>c.tier==="sale");
+  document.getElementById("stats").innerHTML =
+    `<div class="stat"><b>${DATA.length}</b><span>モデル</span></div>
+     <div class="stat"><b>${all.length}</b><span>カラー</span></div>
+     <div class="stat"><b>${fmt(all.reduce((a,c)=>a+pairs(c),0))}</b><span>足(Quantity 合計)</span></div>
+     <div class="stat sale"><b>${sale.length}</b><span>カラーが 20% OFF</span></div>`;
+}
+
+function priceHTML(cw){
+  return cw.tier === "sale"
+    ? `<div class="price"><span class="now s">฿${fmt(cw.sale)}</span><span class="was">฿${fmt(cw.price)}</span><span class="unit">20% OFF</span></div>`
+    : `<div class="price"><span class="now">฿${fmt(cw.price)}</span><span class="unit">定価</span></div>`;
+}
+function sizesHTML(cw){
+  return `<div class="sizes" aria-label="サイズ別数量">${cw.sizes.map(s=>`<span class="sz"><b>${cw.g}${s.s}</b> <span>×${s.q}</span></span>`).join("")}</div>`;
+}
+
+function card(m, cws){
+  let cur = cws.find(c=>c.code===sel[m.name]) || cws[0];
+  sel[m.name] = cur.code;
+  const img = cur.imgs[0];
+  return `<article class="card" data-m="${esc(m.name)}">
+    <button class="photo" data-open="${esc(m.name)}" aria-label="${esc(m.name)} の詳細を開く">
+      ${img?`<img src="${img}" alt="${esc(m.name)} ${esc(cur.colour)}" loading="lazy">`:""}
+      ${cur.tier==="sale"?`<span class="badge">20% OFF</span>`:""}
+      ${cur.ref_img?`<span class="refnote">参考画像</span>`:""}
+    </button>
+    <div class="body">
+      <div><h3 class="name">${esc(m.name)}</h3><div class="jname">${esc(m.jp_title)}</div></div>
+      ${m.tagline?`<p class="tag">${esc(m.tagline)}</p>`:""}
+      <div class="swatches" role="group" aria-label="カラー">${cws.map(c=>`<button class="sw" data-cw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${GL[c.g]})"><img src="${c.imgs[0]||""}" alt="" loading="lazy"><i>${c.g}</i></button>`).join("")}</div>
+      <div class="cwname"><b>${esc(cur.colour)}</b><span class="gpill">${GL[cur.g]}</span><span class="gpill">${cur.code}</span><span class="gpill">${pairs(cur)}足</span></div>
+      ${priceHTML(cur)}
+      ${sizesHTML(cur)}
+      <button class="more" data-open="${esc(m.name)}">特徴・説明を見る</button>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const out = [];
+  let nM = 0, nC = 0;
+  for (const cat of Object.keys(CAT)){
+    const cards = [];
+    for (const m of DATA.filter(m=>m.cat===cat)){
+      const cws = m.cw.filter(c=>cwMatch(m,c));
+      if (!cws.length) continue;
+      nM++; nC += cws.length;
+      cards.push(card(m, cws));
+    }
+    if (cards.length) out.push(`<section class="cat"><h2>${CAT[cat][0]}<small>${CAT[cat][1]} · ${cards.length}モデル</small></h2><div class="grid">${cards.join("")}</div></section>`);
+  }
+  document.getElementById("list").innerHTML = out.join("") || `<p class="empty">条件に合うモデルがありません。絞り込みを「すべて」に戻すか、検索語を変えてください。</p>`;
+  document.getElementById("count").textContent = `${nM}モデル / ${nC}カラー`;
+}
+
+function openModel(name){
+  const m = DATA.find(x=>x.name===name);
+  const cur = m.cw.find(c=>c.code===sel[name]) || m.cw[0];
+  const en = m.en || {};
+  const w = m.weight_ja || [en.wW && `W ${en.wW}g`, en.wM && `M ${en.wM}g`].filter(Boolean).join(" / ");
+  const fit = en.fitW ? `W ${fitJa(en.fitW)} / M ${fitJa(en.fitM)}` : fitJa(en.fit);
+  const specs = [["ソール厚", en.sole && en.sole+"mm"],["ラグ(溝)深さ", en.tread!==undefined && en.tread!=="" && en.tread+"mm"],["重量(片足)", w],["サイズ感", fit]].filter(s=>s[1]);
+  const links = [m.jp_url && `<a href="${m.jp_url}" target="_blank" rel="noopener">日本公式ページ</a>`,
+                 ...Object.entries(m.gl_url||{}).map(([g,u])=>`<a href="${u}" target="_blank" rel="noopener">Global (${GL[g]})</a>`)].filter(Boolean);
+  const dlg = document.getElementById("dlg");
+  dlg.innerHTML = `<div class="dlg">
+    <div class="gal">
+      <div class="main"><img id="dmain" src="${cur.imgs[0]||""}" alt="${esc(m.name)} ${esc(cur.colour)}"></div>
+      <div class="thumbs" id="dthumbs">${cur.imgs.map((s,i)=>`<button data-img="${s}" aria-pressed="${i===0}" aria-label="画像 ${i+1}"><img src="${s}" alt=""></button>`).join("")}</div>
+      <div class="swatches" id="dsw">${m.cw.map(c=>`<button class="sw" data-dcw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${GL[c.g]})"><img src="${c.imgs[0]||""}" alt=""><i>${c.g}</i></button>`).join("")}</div>
+      <div class="cwname" style="color:#171A18"><b>${esc(cur.colour)}</b><span>${GL[cur.g]} · ${cur.code}</span></div>
+      ${cur.ref_img?`<div class="note">この画像は後継の Sensus II Grounding(Tan)です。店頭の現物とは細部が異なる場合があります。</div>`:""}
+    </div>
+    <div class="info">
+      <button class="close" id="dclose">閉じる</button>
+      <div><div class="eyebrow">${CAT[m.cat][0]} · ${esc(m.jp_title)}</div><h3>${esc(m.name)}</h3></div>
+      ${priceHTML(cur)}
+      ${m.tagline?`<p class="lead"><b>${esc(m.tagline)}</b></p>`:""}
+      ${m.intro_ja?`<p class="lead">${esc(m.intro_ja)}</p>`:""}
+      ${en.d?`<p class="lead en" lang="en">${esc(en.d)}</p>`:""}
+      ${m.note?`<div class="note">${esc(m.note)}</div>`:""}
+      ${specs.length?`<div><p class="sec">Spec</p><dl class="specs">${specs.map(([k,v])=>`<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>`:""}
+      ${m.feats.length?`<div><p class="sec">特徴</p><ul class="feats">${m.feats.map(f=>`<li>${f.t?`<b>${esc(f.t)}</b>`:""}${esc(f.d)}</li>`).join("")}</ul></div>`:""}
+      <div><p class="sec">カラー別の価格と数量</p><div class="tbl"><table>
+        <thead><tr><th>カラー</th><th></th><th>サイズ(数量)</th><th style="text-align:right">価格 THB</th><th style="text-align:right">20% OFF</th></tr></thead>
+        <tbody>${m.cw.map(c=>`<tr class="${c.code===cur.code?"cur":""}"><td>${esc(c.colour)}</td><td class="m">${c.g} · ${c.code}</td><td class="m">${c.sizes.map(s=>`${s.s}×${s.q}`).join("  ")}</td><td class="n">${fmt(c.price)}</td><td class="n">${c.sale?fmt(c.sale):"-"}</td></tr>`).join("")}</tbody>
+      </table></div></div>
+      <div><p class="sec">SKU / バーコード(選択中のカラー)</p><div class="tbl"><table>
+        <thead><tr><th>SKU</th><th>サイズ</th><th style="text-align:right">数量</th><th>バーコード</th></tr></thead>
+        <tbody>${cur.sizes.map(s=>`<tr><td class="m">${s.sku}</td><td class="m">EU${s.s}</td><td class="n">${s.q}</td><td class="m">${s.bc}</td></tr>`).join("")}</tbody>
+      </table></div></div>
+      ${links.length?`<div class="links">${links.join("")}</div>`:""}
+    </div></div>`;
+  if (!dlg.open) dlg.showModal();
+  dlg.querySelector(".info").scrollTop = 0;
+}
+
+document.addEventListener("click", e => {
+  const sw = e.target.closest(".card .sw");
+  if (sw){ const m = sw.closest(".card").dataset.m; sel[m] = sw.dataset.cw; render(); return; }
+  const op = e.target.closest("[data-open]");
+  if (op){ openModel(op.dataset.open); return; }
+  const dsw = e.target.closest("[data-dcw]");
+  if (dsw){ const m = DATA.find(x=>x.cw.some(c=>c.code===dsw.dataset.dcw)); sel[m.name] = dsw.dataset.dcw; openModel(m.name); render(); return; }
+  const th = e.target.closest("[data-img]");
+  if (th){ document.getElementById("dmain").src = th.dataset.img; document.querySelectorAll("#dthumbs button").forEach(b=>b.setAttribute("aria-pressed", b===th)); return; }
+  if (e.target.id === "dclose" || e.target.id === "dlg") document.getElementById("dlg").close();
+});
+for (const [id,key] of [["f-tier","tier"],["f-g","g"],["f-cat","cat"]]){
+  document.getElementById(id).addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    st[key] = b.dataset.v;
+    b.parentElement.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b));
+    render();
+  });
+}
+document.getElementById("q").addEventListener("input", e => { st.q = e.target.value; render(); });
+renderStats(); render();
+</script>
