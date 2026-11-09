@@ -191,10 +191,33 @@ def fetch(job):
 with ThreadPoolExecutor(12) as ex:
     list(ex.map(fetch, jobs))
 
+# Regular (always-stocked) lineup = the K Village "SALE 10% OFF" poster, 7-30 Sep 2026.
+# Model-colour codes, gender is the first digit (2 = Women, 3 = Men).
+REGULAR = {
+    "209253-01", "309253-01", "209253-04", "309253-04", "209253-07", "309253-05",  # Primus Lite IV
+    "209576-03", "309576-03",                                                      # Primus Lite Knit Natural
+    "309600-03",                                                                   # Primus Trail FG 3.5
+    "309123-07", "309123-02", "209123-02", "209123-01",                            # Gobi III Sneaker Leather
+    "309648-05",                                                                   # Motus Strength II
+    "209062-01",                                                                   # Geo Court IV
+    "309553-01",                                                                   # Sensus II
+    "305102-01",                                                                   # Ra IV
+}
+all_codes = {c["code"] for m in models.values() for c in m["cw"]}
+missing = REGULAR - all_codes
+assert not missing, f"regular codes not in workbook: {missing}"
+
+# The page is for product knowledge: list price only, no event quantities or barcodes.
+for m in models.values():
+    for c in m["cw"]:
+        c["regular"] = c["code"] in REGULAR
+        for k in ("sizes", "sale", "tier"):
+            c.pop(k, None)
+
 out = list(models.values())
 json.dump(out, open(ROOT / "data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(len(out), "models,", sum(len(m["cw"]) for m in out), "colourways,",
-      sum(s["q"] for m in out for c in m["cw"] for s in c["sizes"]), "pairs,", len(jobs), "images")
+      sum(c["regular"] for m in out for c in m["cw"]), "regular,", len(jobs), "images")
 for m in out:
     for c in m["cw"]:
         if not c["imgs"]:

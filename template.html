@@ -1,6 +1,6 @@
 <meta charset="utf-8">
-<title>T21 Asok Vivo Lineup</title>
-<meta name="description" content="Terminal 21 Asok イベント在庫の Vivobarefoot 全モデル。特徴・説明・画像・販売価格・サイズ別数量">
+<title>Barefoot Inc Vivo Lineup</title>
+<meta name="description" content="Barefoot Inc が扱う Vivobarefoot のレギュラー商品と、イベントだけで扱う商品。特徴・説明・画像・通常価格">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -39,7 +39,17 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);lin
 .stats{display:flex;gap:28px;flex-wrap:wrap}
 .stat b{display:block;font-family:var(--display);font-size:30px;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
 .stat span{font-size:12px;color:var(--muted)}
-.stat.sale b{color:var(--sale)}
+.tabs{display:flex;border-bottom:2px solid var(--ink);margin-top:4px;overflow-x:auto}
+.tabs a{display:flex;flex-direction:column;gap:1px;padding:10px 20px 9px;text-decoration:none;color:var(--muted);border-radius:8px 8px 0 0;white-space:nowrap}
+.tabs a b{font-family:var(--display);font-size:22px;font-weight:600;letter-spacing:.03em;line-height:1.1}
+.tabs a span{font-family:var(--mono);font-size:11.5px}
+.tabs a:hover{color:var(--ink)}
+.tabs a[aria-current="page"]{background:var(--ink);color:var(--bg)}
+.tabnote{margin:10px 0 0;font-size:13px;color:var(--muted);max-width:760px}
+.also{font-size:11.5px;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 6px;align-self:flex-start}
+.kind{font-family:var(--mono);font-size:11px;padding:0 6px;border-radius:3px;white-space:nowrap}
+.kind.r{background:var(--ink);color:var(--surface)}
+.kind.e{background:var(--chip);color:var(--muted)}
 
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
 .seg{display:inline-flex;background:var(--sunk);border-radius:8px;padding:3px;gap:2px}
@@ -57,8 +67,6 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);lin
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
 .photo{position:relative;background:var(--photo);aspect-ratio:4/3;max-width:100%;display:flex;align-items:center;justify-content:center;cursor:zoom-in;border:0;padding:0;width:100%}
 .photo img{width:100%;height:100%;object-fit:contain;padding:8px}
-.badge{position:absolute;top:10px;left:10px;font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.04em;background:var(--sale);color:#fff;padding:2px 8px;border-radius:4px}
-.refnote{position:absolute;bottom:8px;right:8px;font-size:10.5px;background:rgba(0,0,0,.6);color:#fff;padding:1px 6px;border-radius:3px}
 .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
 .name{font-family:var(--display);font-weight:700;font-size:23px;line-height:1.05;text-transform:uppercase;letter-spacing:.02em;margin:0}
 .jname{font-size:12px;color:var(--muted);margin-top:2px}
@@ -73,13 +81,7 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);lin
 .gpill{font-family:var(--mono);font-size:11px;padding:0 6px;border-radius:3px;background:var(--chip);color:var(--muted)}
 .price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .price .now{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
-.price .now.s{color:var(--sale)}
-.price .was{font-family:var(--mono);font-size:13px;color:var(--muted);text-decoration:line-through}
 .price .unit{font-size:12px;color:var(--muted)}
-.sizes{display:flex;flex-wrap:wrap;gap:5px}
-.sz{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-variant-numeric:tabular-nums}
-.sz b{font-weight:500}
-.sz span{color:var(--muted)}
 .more{margin-top:auto;align-self:flex-start;border:1px solid var(--ink);background:transparent;border-radius:6px;padding:6px 12px;cursor:pointer;font-size:13px}
 .more:hover{background:var(--ink);color:var(--surface)}
 .empty{padding:40px 0;color:var(--muted)}
@@ -130,18 +132,19 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);max-width:760px;display
 <div class="wrap">
 <header class="top">
   <div>
-    <div class="eyebrow">Terminal 21 Asok · Event stock · Vivobarefoot</div>
-    <h1>Vivo lineup at T21 Asok</h1>
+    <div class="eyebrow">Barefoot Inc · Vivobarefoot · Thailand</div>
+    <h1>Vivo lineup</h1>
   </div>
   <div class="stats" id="stats"></div>
 </header>
 
+<nav class="tabs" id="tabs" aria-label="ラインナップ">
+  <a href="#regular" data-tab="regular" aria-current="page"><b>レギュラー取扱</b><span id="t-regular"></span></a>
+  <a href="#event" data-tab="event"><b>イベント取扱</b><span id="t-event"></span></a>
+</nav>
+<p class="tabnote" id="tabnote"></p>
+
 <div class="bar" role="toolbar" aria-label="絞り込み">
-  <div class="seg" id="f-tier" aria-label="価格">
-    <button data-v="all" aria-pressed="true">すべて</button>
-    <button data-v="sale" aria-pressed="false">20% OFF</button>
-    <button data-v="full" aria-pressed="false">定価</button>
-  </div>
   <div class="seg" id="f-g" aria-label="性別">
     <button data-v="all" aria-pressed="true">W / M</button>
     <button data-v="W" aria-pressed="false">Women</button>
@@ -154,14 +157,15 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);max-width:760px;display
     <button data-v="trail" aria-pressed="false">Trail</button>
     <button data-v="everyday" aria-pressed="false">Everyday</button>
   </div>
-  <label class="search"><input id="q" type="search" placeholder="モデル名・カラー・SKU・サイズ(例: 38)" aria-label="検索"></label>
+  <label class="search"><input id="q" type="search" placeholder="モデル名・カラー・コード" aria-label="検索"></label>
   <span class="count" id="count"></span>
 </div>
 
 <main id="list"></main>
 
 <footer>
-  <div>価格: <b>VivoT21Asok Stock.xlsx</b> の「Discout 20%」シート(Price THB と Discunt 20%)と「Normal Price」シート(Price THB)。数量は各シートの Quantity 列。</div>
+  <div>レギュラー取扱: K Village の販促ポスター(2026年9月 SALE 10% OFF)に載っている8モデル・17カラー。イベント取扱: Terminal 21 Asok イベント在庫(VivoT21Asok Stock.xlsx の「Discout 20%」「Normal Price」シート)のうち、レギュラーに無いカラー・性別。</div>
+  <div>価格: 同ファイルの Price THB 列(セール前の通常価格)。</div>
   <div>説明・特徴: vivobarefoot.co.jp(日本語)と vivobarefoot.com/rw(英語)の商品ページ。画像は両サイトの商品画像。ソール厚・ラグ深さ・フィットはグローバルサイト、重量は日本サイトの表記。</div>
   <div>公式サイトに掲載が終わった旧モデル(Motus Strength、Primus Lite 3.5 など)は日本サイトの情報のみ。</div>
 </footer>
@@ -173,41 +177,50 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);max-width:760px;display
 const DATA = /*DATA*/;
 const CAT = {training:["Training","筋トレ・ジム・クロストレーニング"],running:["Running","ロード・トレッドミル"],trail:["Trail","トレイル・アウトドア"],everyday:["Everyday","街履き・オフィス"]};
 const GL = {W:"Women",M:"Men"};
-const st = {tier:"all", g:"all", cat:"all", q:""};
+const st = {tab:"regular", g:"all", cat:"all", q:""};
 const sel = {};   // model name -> selected colourway code
 const fmt = n => n.toLocaleString("en-US");
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const pairs = cw => cw.sizes.reduce((a,s)=>a+s.q,0);
+const inTab = (cw, tab) => tab === "regular" ? cw.regular : !cw.regular;
+const TABNOTE = {
+  regular: "店舗で常時扱っている商品です。性別ごとに扱いが違うカラーがあります(例: Geo Court IV は Women のみ)。",
+  event: "レギュラーには無いが、イベントで扱ったカラー・性別です。モデル自体はレギュラーにあり、別カラーや別の性別だけがイベント扱いのものも含みます。"
+};
 const fitJa = f => !f ? "" : /large/i.test(f) ? "大きめ(1サイズ下を推奨)" : /true/i.test(f) ? "標準" : f;
 
 function cwMatch(m, cw){
-  if (st.tier !== "all" && cw.tier !== st.tier) return false;
+  if (!inTab(cw, st.tab)) return false;
   if (st.g !== "all" && cw.g !== st.g) return false;
   if (st.cat !== "all" && m.cat !== st.cat) return false;
   const q = st.q.trim().toLowerCase();
   if (!q) return true;
-  if (/^\d{2}$/.test(q)) return cw.sizes.some(s => s.s === q);
-  const hay = [m.name, m.jp_title, cw.colour, cw.code, ...cw.sizes.map(s=>s.sku+" "+s.bc)].join(" ").toLowerCase();
+  const hay = [m.name, m.jp_title, cw.colour, cw.code, GL[cw.g]].join(" ").toLowerCase();
   return q.split(/\s+/).every(t => hay.includes(t));
 }
 
+function tabCounts(tab){
+  const cws = DATA.flatMap(m=>m.cw.filter(c=>inTab(c,tab)));
+  const ms = DATA.filter(m=>m.cw.some(c=>inTab(c,tab)));
+  return {m: ms.length, c: cws.length, lo: Math.min(...cws.map(c=>c.price)), hi: Math.max(...cws.map(c=>c.price))};
+}
 function renderStats(){
-  const all = DATA.flatMap(m=>m.cw);
-  const sale = all.filter(c=>c.tier==="sale");
+  for (const t of ["regular","event"]){
+    const k = tabCounts(t);
+    document.getElementById("t-"+t).textContent = `${k.m}モデル · ${k.c}カラー`;
+  }
+  const k = tabCounts(st.tab);
   document.getElementById("stats").innerHTML =
-    `<div class="stat"><b>${DATA.length}</b><span>モデル</span></div>
-     <div class="stat"><b>${all.length}</b><span>カラー</span></div>
-     <div class="stat"><b>${fmt(all.reduce((a,c)=>a+pairs(c),0))}</b><span>足(Quantity 合計)</span></div>
-     <div class="stat sale"><b>${sale.length}</b><span>カラーが 20% OFF</span></div>`;
+    `<div class="stat"><b>${k.m}</b><span>モデル</span></div>
+     <div class="stat"><b>${k.c}</b><span>カラー(男女別)</span></div>
+     <div class="stat"><b>฿${fmt(k.lo)}–${fmt(k.hi)}</b><span>通常価格の幅</span></div>`;
+  document.getElementById("tabnote").textContent = TABNOTE[st.tab];
+  document.querySelectorAll("#tabs a").forEach(a => {
+    if (a.dataset.tab === st.tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
 }
 
 function priceHTML(cw){
-  return cw.tier === "sale"
-    ? `<div class="price"><span class="now s">฿${fmt(cw.sale)}</span><span class="was">฿${fmt(cw.price)}</span><span class="unit">20% OFF</span></div>`
-    : `<div class="price"><span class="now">฿${fmt(cw.price)}</span><span class="unit">定価</span></div>`;
-}
-function sizesHTML(cw){
-  return `<div class="sizes" aria-label="サイズ別数量">${cw.sizes.map(s=>`<span class="sz"><b>${cw.g}${s.s}</b> <span>×${s.q}</span></span>`).join("")}</div>`;
+  return `<div class="price"><span class="now">฿${fmt(cw.price)}</span><span class="unit">通常価格</span></div>`;
 }
 
 function card(m, cws){
@@ -217,16 +230,14 @@ function card(m, cws){
   return `<article class="card" data-m="${esc(m.name)}">
     <button class="photo" data-open="${esc(m.name)}" aria-label="${esc(m.name)} の詳細を開く">
       ${img?`<img src="${img}" alt="${esc(m.name)} ${esc(cur.colour)}" loading="lazy">`:""}
-      ${cur.tier==="sale"?`<span class="badge">20% OFF</span>`:""}
-      ${cur.ref_img?`<span class="refnote">参考画像</span>`:""}
     </button>
     <div class="body">
       <div><h3 class="name">${esc(m.name)}</h3><div class="jname">${esc(m.jp_title)}</div></div>
       ${m.tagline?`<p class="tag">${esc(m.tagline)}</p>`:""}
       <div class="swatches" role="group" aria-label="カラー">${cws.map(c=>`<button class="sw" data-cw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${GL[c.g]})"><img src="${c.imgs[0]||""}" alt="" loading="lazy"><i>${c.g}</i></button>`).join("")}</div>
-      <div class="cwname"><b>${esc(cur.colour)}</b><span class="gpill">${GL[cur.g]}</span><span class="gpill">${cur.code}</span><span class="gpill">${pairs(cur)}足</span></div>
+      <div class="cwname"><b>${esc(cur.colour)}</b><span class="gpill">${GL[cur.g]}</span><span class="gpill">${cur.code}</span></div>
       ${priceHTML(cur)}
-      ${sizesHTML(cur)}
+      ${st.tab==="event" && m.cw.some(c=>c.regular)?`<span class="also">別カラーはレギュラー取扱</span>`:""}
       <button class="more" data-open="${esc(m.name)}">特徴・説明を見る</button>
     </div>
   </article>`;
@@ -264,8 +275,7 @@ function openModel(name){
       <div class="main"><img id="dmain" src="${cur.imgs[0]||""}" alt="${esc(m.name)} ${esc(cur.colour)}"></div>
       <div class="thumbs" id="dthumbs">${cur.imgs.map((s,i)=>`<button data-img="${s}" aria-pressed="${i===0}" aria-label="画像 ${i+1}"><img src="${s}" alt=""></button>`).join("")}</div>
       <div class="swatches" id="dsw">${m.cw.map(c=>`<button class="sw" data-dcw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${GL[c.g]})"><img src="${c.imgs[0]||""}" alt=""><i>${c.g}</i></button>`).join("")}</div>
-      <div class="cwname" style="color:#171A18"><b>${esc(cur.colour)}</b><span>${GL[cur.g]} · ${cur.code}</span></div>
-      ${cur.ref_img?`<div class="note">この画像は後継の Sensus II Grounding(Tan)です。店頭の現物とは細部が異なる場合があります。</div>`:""}
+      <div class="cwname" style="color:#171A18"><b>${esc(cur.colour)}</b><span>${GL[cur.g]} · ${cur.code}</span><span class="kind ${cur.regular?"r":"e"}">${cur.regular?"レギュラー":"イベント"}</span></div>
     </div>
     <div class="info">
       <button class="close" id="dclose">閉じる</button>
@@ -277,13 +287,9 @@ function openModel(name){
       ${m.note?`<div class="note">${esc(m.note)}</div>`:""}
       ${specs.length?`<div><p class="sec">Spec</p><dl class="specs">${specs.map(([k,v])=>`<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>`:""}
       ${m.feats.length?`<div><p class="sec">特徴</p><ul class="feats">${m.feats.map(f=>`<li>${f.t?`<b>${esc(f.t)}</b>`:""}${esc(f.d)}</li>`).join("")}</ul></div>`:""}
-      <div><p class="sec">カラー別の価格と数量</p><div class="tbl"><table>
-        <thead><tr><th>カラー</th><th></th><th>サイズ(数量)</th><th style="text-align:right">価格 THB</th><th style="text-align:right">20% OFF</th></tr></thead>
-        <tbody>${m.cw.map(c=>`<tr class="${c.code===cur.code?"cur":""}"><td>${esc(c.colour)}</td><td class="m">${c.g} · ${c.code}</td><td class="m">${c.sizes.map(s=>`${s.s}×${s.q}`).join("  ")}</td><td class="n">${fmt(c.price)}</td><td class="n">${c.sale?fmt(c.sale):"-"}</td></tr>`).join("")}</tbody>
-      </table></div></div>
-      <div><p class="sec">SKU / バーコード(選択中のカラー)</p><div class="tbl"><table>
-        <thead><tr><th>SKU</th><th>サイズ</th><th style="text-align:right">数量</th><th>バーコード</th></tr></thead>
-        <tbody>${cur.sizes.map(s=>`<tr><td class="m">${s.sku}</td><td class="m">EU${s.s}</td><td class="n">${s.q}</td><td class="m">${s.bc}</td></tr>`).join("")}</tbody>
+      <div><p class="sec">カラーと通常価格</p><div class="tbl"><table>
+        <thead><tr><th>カラー</th><th>性別 · コード</th><th>取扱</th><th style="text-align:right">価格 THB</th></tr></thead>
+        <tbody>${[...m.cw].sort((a,b)=>b.regular-a.regular).map(c=>`<tr class="${c.code===cur.code?"cur":""}"><td>${esc(c.colour)}</td><td class="m">${GL[c.g]} · ${c.code}</td><td><span class="kind ${c.regular?"r":"e"}">${c.regular?"レギュラー":"イベント"}</span></td><td class="n">${fmt(c.price)}</td></tr>`).join("")}</tbody>
       </table></div></div>
       ${links.length?`<div class="links">${links.join("")}</div>`:""}
     </div></div>`;
@@ -302,7 +308,7 @@ document.addEventListener("click", e => {
   if (th){ document.getElementById("dmain").src = th.dataset.img; document.querySelectorAll("#dthumbs button").forEach(b=>b.setAttribute("aria-pressed", b===th)); return; }
   if (e.target.id === "dclose" || e.target.id === "dlg") document.getElementById("dlg").close();
 });
-for (const [id,key] of [["f-tier","tier"],["f-g","g"],["f-cat","cat"]]){
+for (const [id,key] of [["f-g","g"],["f-cat","cat"]]){
   document.getElementById(id).addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
     st[key] = b.dataset.v;
@@ -311,5 +317,16 @@ for (const [id,key] of [["f-tier","tier"],["f-g","g"],["f-cat","cat"]]){
   });
 }
 document.getElementById("q").addEventListener("input", e => { st.q = e.target.value; render(); });
-renderStats(); render();
+function setTab(t){
+  st.tab = t === "event" ? "event" : "regular";
+  renderStats(); render();
+}
+document.getElementById("tabs").addEventListener("click", e => {
+  const a = e.target.closest("a[data-tab]"); if (!a) return;
+  e.preventDefault();
+  try { history.replaceState(null, "", "#" + a.dataset.tab); } catch (_) {}
+  setTab(a.dataset.tab);
+});
+window.addEventListener("hashchange", () => setTab(location.hash.slice(1)));
+setTab(location.hash.slice(1));
 </script>

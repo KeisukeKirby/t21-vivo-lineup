@@ -10,153 +10,60 @@
    {
     "code": "209490-11",
     "g": "W",
-    "tier": "sale",
     "price": 7140,
-    "sale": 5712,
     "colour": "Bright White/Grey",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209490-11-W36",
-      "bc": "5057794175136"
-     },
-     {
-      "s": "37",
-      "q": 3,
-      "sku": "209490-11-W37",
-      "bc": "5057794175143"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209490-11-W40",
-      "bc": "5057794175174"
-     }
-    ],
     "imgs": [
      "img/209490-11_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    },
    {
     "code": "209490-12",
     "g": "W",
-    "tier": "sale",
     "price": 7140,
-    "sale": 5712,
     "colour": "Obsidian/Grey",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 2,
-      "sku": "209490-12-W35",
-      "bc": "5057794182486"
-     },
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209490-12-W36",
-      "bc": "5057794182493"
-     },
-     {
-      "s": "37",
-      "q": 3,
-      "sku": "209490-12-W37",
-      "bc": "5057794182509"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209490-12-W40",
-      "bc": "5057794175266"
-     }
-    ],
     "imgs": [
      "img/209490-12_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    },
    {
     "code": "209490-19",
     "g": "W",
-    "tier": "sale",
     "price": 7140,
-    "sale": 5712,
     "colour": "Dusty Rose",
-    "sizes": [
-     {
-      "s": "38",
-      "q": 1,
-      "sku": "209490-19-W38",
-      "bc": "5057794227286"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209490-19-W39",
-      "bc": "5057794227293"
-     }
-    ],
     "imgs": [
      "img/209490-19_side.jpg",
      "img/209490-19_pair.jpg",
      "img/209490-19_back.jpg",
      "img/209490-19_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309490-14",
     "g": "M",
-    "tier": "sale",
     "price": 7140,
-    "sale": 5712,
     "colour": "Bright White/Grey",
-    "sizes": [
-     {
-      "s": "40",
-      "q": 2,
-      "sku": "309490-14-M40",
-      "bc": "5057794179523"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309490-14-M43",
-      "bc": "5057794179554"
-     },
-     {
-      "s": "44",
-      "q": 1,
-      "sku": "309490-14-M44",
-      "bc": "5057794179561"
-     }
-    ],
     "imgs": [
      "img/309490-14_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    },
    {
     "code": "309490-15",
     "g": "M",
-    "tier": "sale",
     "price": 7140,
-    "sale": 5712,
     "colour": "Obsidian/Grey",
-    "sizes": [
-     {
-      "s": "40",
-      "q": 3,
-      "sku": "309490-15-M40",
-      "bc": "5057794179622"
-     }
-    ],
     "imgs": [
      "img/309490-15_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    }
   ],
   "jp_title": "モータス ストレングス (W)",
@@ -192,118 +99,58 @@
    {
     "code": "209574-01",
     "g": "W",
-    "tier": "sale",
     "price": 5100,
-    "sale": 4080,
     "colour": "Mineral",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 3,
-      "sku": "209574-01-W35",
-      "bc": "5057794191358"
-     },
-     {
-      "s": "36",
-      "q": 3,
-      "sku": "209574-01-W36",
-      "bc": "5057794191365"
-     }
-    ],
     "imgs": [
      "img/209574-01_side.jpg",
      "img/209574-01_pair.jpg",
      "img/209574-01_back.jpg",
      "img/209574-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209574-02",
     "g": "W",
-    "tier": "sale",
     "price": 5100,
-    "sale": 4080,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 2,
-      "sku": "209574-02-W35",
-      "bc": "5057794229594"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209574-02-W37",
-      "bc": "5057794229617"
-     },
-     {
-      "s": "38",
-      "q": 3,
-      "sku": "209574-02-W38",
-      "bc": "5057794229624"
-     }
-    ],
     "imgs": [
      "img/209574-02_side.jpg",
      "img/209574-02_pair.jpg",
      "img/209574-02_back.jpg",
      "img/209574-02_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209574-03",
     "g": "W",
-    "tier": "sale",
     "price": 5100,
-    "sale": 4080,
     "colour": "Dusty Rose",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209574-03-W36",
-      "bc": "5057794229693"
-     }
-    ],
     "imgs": [
      "img/209574-03_side.jpg",
      "img/209574-03_pair.jpg",
      "img/209574-03_back.jpg",
      "img/209574-03_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209574-04",
     "g": "W",
-    "tier": "sale",
     "price": 5100,
-    "sale": 4080,
     "colour": "Midnight",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209574-04-W36",
-      "bc": "5057794238343"
-     },
-     {
-      "s": "38",
-      "q": 1,
-      "sku": "209574-04-W38",
-      "bc": "5057794238367"
-     }
-    ],
     "imgs": [
      "img/209574-04_side.jpg",
      "img/209574-04_pair.jpg",
      "img/209574-04_back.jpg",
      "img/209574-04_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマス ライト 3.5 (W)",
@@ -340,148 +187,58 @@
    {
     "code": "209578-01",
     "g": "W",
-    "tier": "sale",
     "price": 6630,
-    "sale": 5304,
     "colour": "White/Neon Orange",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209578-01-W36",
-      "bc": "5057794230057"
-     },
-     {
-      "s": "38",
-      "q": 1,
-      "sku": "209578-01-W38",
-      "bc": "5057794230071"
-     }
-    ],
     "imgs": [
      "img/209578-01_side.jpg",
      "img/209578-01_pair.jpg",
      "img/209578-01_back.jpg",
      "img/209578-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209578-02",
     "g": "W",
-    "tier": "sale",
     "price": 6630,
-    "sale": 5304,
     "colour": "Dark Shadow",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 1,
-      "sku": "209578-02-W37",
-      "bc": "5057794230156"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209578-02-W39",
-      "bc": "5057794230170"
-     }
-    ],
     "imgs": [
      "img/209578-02_side.jpg",
      "img/209578-02_pair.jpg",
      "img/209578-02_back.jpg",
      "img/209578-02_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309578-02",
     "g": "M",
-    "tier": "sale",
     "price": 6630,
-    "sale": 5304,
     "colour": "Dark Shadow",
-    "sizes": [
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "309578-02-M40",
-      "bc": "5057794236349"
-     },
-     {
-      "s": "41",
-      "q": 3,
-      "sku": "309578-02-M41",
-      "bc": "5057794236356"
-     },
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "309578-02-M42",
-      "bc": "5057794236363"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309578-02-M43",
-      "bc": "5057794236370"
-     }
-    ],
     "imgs": [
      "img/309578-02_side.jpg",
      "img/309578-02_pair.jpg",
      "img/309578-02_back.jpg",
      "img/309578-02_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309578-03",
     "g": "M",
-    "tier": "sale",
     "price": 6630,
-    "sale": 5304,
     "colour": "Coconut",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 3,
-      "sku": "309578-03-M41",
-      "bc": "5057794236455"
-     },
-     {
-      "s": "42",
-      "q": 2,
-      "sku": "309578-03-M42",
-      "bc": "5057794236462"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309578-03-M43",
-      "bc": "5057794236479"
-     },
-     {
-      "s": "44",
-      "q": 2,
-      "sku": "309578-03-M44",
-      "bc": "5057794236486"
-     },
-     {
-      "s": "45",
-      "q": 2,
-      "sku": "309578-03-M45",
-      "bc": "5057794236493"
-     }
-    ],
     "imgs": [
      "img/309578-03_side.jpg",
      "img/309578-03_pair.jpg",
      "img/309578-03_back.jpg",
      "img/309578-03_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマス フロー (W)",
@@ -522,54 +279,24 @@
    {
     "code": "209660-02",
     "g": "W",
-    "tier": "sale",
     "price": 5990,
-    "sale": 4792,
     "colour": "Limestone",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209660-02-W36",
-      "bc": "5057794231764"
-     },
-     {
-      "s": "37",
-      "q": 1,
-      "sku": "209660-02-W37",
-      "bc": "5057794231771"
-     }
-    ],
     "imgs": [
      "img/209660-02_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    },
    {
     "code": "309660-02",
     "g": "M",
-    "tier": "sale",
     "price": 5990,
-    "sale": 4792,
     "colour": "Limestone",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309660-02-M41",
-      "bc": "5057794237858"
-     },
-     {
-      "s": "45",
-      "q": 2,
-      "sku": "309660-02-M45",
-      "bc": "5057794237896"
-     }
-    ],
     "imgs": [
      "img/309660-02_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    }
   ],
   "jp_title": "ゴビ II スニーカー プレミアムレザー (W)",
@@ -617,54 +344,30 @@
    {
     "code": "209062-01",
     "g": "W",
-    "tier": "full",
     "price": 6120,
-    "sale": null,
     "colour": "Bright White",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209062-01-W37",
-      "bc": "5057794241350"
-     }
-    ],
     "imgs": [
      "img/209062-01_side.jpg",
      "img/209062-01_pair.jpg",
      "img/209062-01_back.jpg",
      "img/209062-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "309062-01",
     "g": "M",
-    "tier": "full",
     "price": 6120,
-    "sale": null,
     "colour": "Bright White",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 3,
-      "sku": "309062-01-M41",
-      "bc": "5057794242968"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309062-01-M43",
-      "bc": "5057794242982"
-     }
-    ],
     "imgs": [
      "img/309062-01_side.jpg",
      "img/309062-01_pair.jpg",
      "img/309062-01_back.jpg",
      "img/309062-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "ジオ コート IV (W)",
@@ -700,54 +403,30 @@
    {
     "code": "209099-25",
     "g": "W",
-    "tier": "full",
     "price": 6290,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209099-25-W36",
-      "bc": "5057794226180"
-     }
-    ],
     "imgs": [
      "img/209099-25_side.jpg",
      "img/209099-25_pair.jpg",
      "img/209099-25_back.jpg",
      "img/209099-25_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209099-27",
     "g": "W",
-    "tier": "full",
     "price": 6290,
-    "sale": null,
     "colour": "Clay",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209099-27-W36",
-      "bc": "5057794226364"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209099-27-W39",
-      "bc": "5057794226395"
-     }
-    ],
     "imgs": [
      "img/209099-27_side.jpg",
      "img/209099-27_pair.jpg",
      "img/209099-27_back.jpg",
      "img/209099-27_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマストレイル ニット FG (W)",
@@ -800,166 +479,58 @@
    {
     "code": "209123-01",
     "g": "W",
-    "tier": "full",
     "price": 5990,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 3,
-      "sku": "209123-01-W37",
-      "bc": "5057794326378"
-     },
-     {
-      "s": "38",
-      "q": 3,
-      "sku": "209123-01-W38",
-      "bc": "5057794326361"
-     },
-     {
-      "s": "39",
-      "q": 3,
-      "sku": "209123-01-W39",
-      "bc": "5057794326354"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209123-01-W40",
-      "bc": "5057794326347"
-     }
-    ],
     "imgs": [
      "img/209123-01_side.jpg",
      "img/209123-01_pair.jpg",
      "img/209123-01_back.jpg",
      "img/209123-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "209123-02",
     "g": "W",
-    "tier": "full",
     "price": 5990,
-    "sale": null,
     "colour": "Limestone",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 3,
-      "sku": "209123-02-W37",
-      "bc": "5057794326286"
-     },
-     {
-      "s": "38",
-      "q": 3,
-      "sku": "209123-02-W38",
-      "bc": "5057794326279"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209123-02-W39",
-      "bc": "5057794326262"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209123-02-W40",
-      "bc": "5057794326255"
-     }
-    ],
     "imgs": [
      "img/209123-02_side.jpg",
      "img/209123-02_pair.jpg",
      "img/209123-02_back.jpg",
      "img/209123-02_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "309123-02",
     "g": "M",
-    "tier": "full",
     "price": 5990,
-    "sale": null,
     "colour": "Limestone",
-    "sizes": [
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "309123-02-M42",
-      "bc": "5057794321588"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309123-02-M43",
-      "bc": "5057794321571"
-     },
-     {
-      "s": "44",
-      "q": 2,
-      "sku": "309123-02-M44",
-      "bc": "5057794330429"
-     },
-     {
-      "s": "45",
-      "q": 2,
-      "sku": "309123-02-M45",
-      "bc": "5057794330412"
-     }
-    ],
     "imgs": [
      "img/309123-02_side.jpg",
      "img/309123-02_pair.jpg",
      "img/309123-02_back.jpg",
      "img/309123-02_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "309123-07",
     "g": "M",
-    "tier": "full",
     "price": 5990,
-    "sale": null,
     "colour": "Triple Obsidian",
-    "sizes": [
-     {
-      "s": "42",
-      "q": 2,
-      "sku": "309123-07-M42",
-      "bc": "5057794330955"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309123-07-M43",
-      "bc": "5057794330948"
-     },
-     {
-      "s": "44",
-      "q": 2,
-      "sku": "309123-07-M44",
-      "bc": "5057794330931"
-     },
-     {
-      "s": "45",
-      "q": 2,
-      "sku": "309123-07-M45",
-      "bc": "5057794330924"
-     }
-    ],
     "imgs": [
      "img/309123-07_side.jpg",
      "img/309123-07_pair.jpg",
      "img/309123-07_back.jpg",
      "img/309123-07_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    }
   ],
   "jp_title": "ゴビ III スニーカー レザー (W)",
@@ -1003,195 +574,81 @@
    {
     "code": "209253-01",
     "g": "W",
-    "tier": "full",
     "price": 5100,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 3,
-      "sku": "209253-01-W37",
-      "bc": "5057794295087"
-     },
-     {
-      "s": "38",
-      "q": 4,
-      "sku": "209253-01-W38",
-      "bc": "5057794295094"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209253-01-W39",
-      "bc": "5057794295100"
-     }
-    ],
     "imgs": [
      "img/209253-01_side.jpg",
      "img/209253-01_pair.jpg",
      "img/209253-01_back.jpg",
      "img/209253-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "209253-04",
     "g": "W",
-    "tier": "full",
     "price": 5100,
-    "sale": null,
     "colour": "Mineral",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 1,
-      "sku": "209253-04-W37",
-      "bc": "5057794295353"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209253-04-W38",
-      "bc": "5057794295360"
-     }
-    ],
     "imgs": [
      "img/209253-04_side.jpg",
      "img/209253-04_pair.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "209253-07",
     "g": "W",
-    "tier": "full",
     "price": 5100,
-    "sale": null,
     "colour": "Storm Cloud",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209253-07-W36",
-      "bc": "5057794325579"
-     },
-     {
-      "s": "37",
-      "q": 3,
-      "sku": "209253-07-W37",
-      "bc": "5057794325562"
-     },
-     {
-      "s": "38",
-      "q": 3,
-      "sku": "209253-07-W38",
-      "bc": "5057794325555"
-     },
-     {
-      "s": "39",
-      "q": 3,
-      "sku": "209253-07-W39",
-      "bc": "5057794325548"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209253-07-W40",
-      "bc": "5057794325531"
-     }
-    ],
     "imgs": [
      "img/209253-07_side.jpg",
      "img/209253-07_pair.jpg",
      "img/209253-07_back.jpg",
      "img/209253-07_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "309253-01",
     "g": "M",
-    "tier": "full",
     "price": 5100,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "42",
-      "q": 4,
-      "sku": "309253-01-M42",
-      "bc": "5057794296923"
-     }
-    ],
     "imgs": [
      "img/309253-01_side.jpg",
      "img/309253-01_pair.jpg",
      "img/309253-01_back.jpg",
      "img/309253-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "309253-04",
     "g": "M",
-    "tier": "full",
     "price": 5100,
-    "sale": null,
     "colour": "Mineral",
-    "sizes": [
-     {
-      "s": "42",
-      "q": 4,
-      "sku": "309253-04-M42",
-      "bc": "5057794297227"
-     },
-     {
-      "s": "43",
-      "q": 2,
-      "sku": "309253-04-M43",
-      "bc": "5057794297234"
-     }
-    ],
     "imgs": [
      "img/309253-04_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": true
    },
    {
     "code": "309253-05",
     "g": "M",
-    "tier": "full",
     "price": 5100,
-    "sale": null,
     "colour": "Storm Cloud",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309253-05-M41",
-      "bc": "5057794306370"
-     },
-     {
-      "s": "42",
-      "q": 4,
-      "sku": "309253-05-M42",
-      "bc": "5057794306363"
-     },
-     {
-      "s": "43",
-      "q": 4,
-      "sku": "309253-05-M43",
-      "bc": "5057794306356"
-     }
-    ],
     "imgs": [
      "img/309253-05_side.jpg",
      "img/309253-05_pair.jpg",
      "img/309253-05_back.jpg",
      "img/309253-05_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    }
   ],
   "jp_title": "プライマス ライト IV (W)",
@@ -1243,135 +700,66 @@
    {
     "code": "209304-01",
     "g": "W",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 1,
-      "sku": "209304-01-W35",
-      "bc": "5057794138308"
-     }
-    ],
     "imgs": [
      "img/209304-01_side.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209304-05",
     "g": "W",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Bright White",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 1,
-      "sku": "209304-05-W35",
-      "bc": "5057794138667"
-     }
-    ],
     "imgs": [
      "img/209304-05_side.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209304-16",
     "g": "W",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Midnight",
-    "sizes": [
-     {
-      "s": "38",
-      "q": 1,
-      "sku": "209304-16-W38",
-      "bc": "5057794174979"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209304-16-W39",
-      "bc": "5057794174986"
-     }
-    ],
     "imgs": [
      "img/209304-16_side.jpg",
      "img/209304-16_pair.jpg",
      "img/209304-16_back.jpg",
      "img/209304-16_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309304-05",
     "g": "M",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Bright White",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 4,
-      "sku": "309304-05-M41",
-      "bc": "5057794142671"
-     },
-     {
-      "s": "45",
-      "q": 2,
-      "sku": "309304-05-M45",
-      "bc": "5057794142718"
-     },
-     {
-      "s": "46",
-      "q": 1,
-      "sku": "309304-05-M46",
-      "bc": "5057794142725"
-     }
-    ],
     "imgs": [
      "img/309304-05_side.jpg",
      "img/309304-05_pair.jpg",
      "img/309304-05_back.jpg",
      "img/309304-05_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309304-20",
     "g": "M",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Midnight",
-    "sizes": [
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "309304-20-M40",
-      "bc": "5057794179226"
-     },
-     {
-      "s": "42",
-      "q": 2,
-      "sku": "309304-20-M42",
-      "bc": "5057794179240"
-     }
-    ],
     "imgs": [
      "img/309304-20_side.jpg",
      "img/309304-20_pair.jpg",
      "img/309304-20_back.jpg",
      "img/309304-20_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマス ライト ニット (W)",
@@ -1408,66 +796,24 @@
    {
     "code": "209305-01",
     "g": "W",
-    "tier": "full",
     "price": 6360,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 2,
-      "sku": "209305-01-W36",
-      "bc": "5057794138858"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209305-01-W37",
-      "bc": "5057794138865"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209305-01-W38",
-      "bc": "5057794138872"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209305-01-W39",
-      "bc": "5057794138889"
-     }
-    ],
     "imgs": [
      "img/209305-01_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    },
    {
     "code": "309305-01",
     "g": "M",
-    "tier": "full",
     "price": 6360,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 1,
-      "sku": "309305-01-M41",
-      "bc": "5057794142879"
-     },
-     {
-      "s": "45",
-      "q": 1,
-      "sku": "309305-01-M45",
-      "bc": "5057794142916"
-     }
-    ],
     "imgs": [
      "img/309305-01_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    }
   ],
   "jp_title": "プライマス トレイル III オール ウェザー FG (W)",
@@ -1522,43 +868,16 @@
    {
     "code": "209317-05",
     "g": "W",
-    "tier": "full",
     "price": 6460,
-    "sale": null,
     "colour": "Cherry Tomato",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209317-05-W36",
-      "bc": "5057794261402"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209317-05-W37",
-      "bc": "5057794261419"
-     },
-     {
-      "s": "38",
-      "q": 1,
-      "sku": "209317-05-W38",
-      "bc": "5057794261426"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209317-05-W39",
-      "bc": "5057794261433"
-     }
-    ],
     "imgs": [
      "img/209317-05_side.jpg",
      "img/209317-05_pair.jpg",
      "img/209317-05_back.jpg",
      "img/209317-05_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマス トレイル フロー (W)",
@@ -1607,124 +926,58 @@
    {
     "code": "209491-01",
     "g": "W",
-    "tier": "full",
     "price": 6800,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 1,
-      "sku": "209491-01-W35",
-      "bc": "5057794160729"
-     },
-     {
-      "s": "36",
-      "q": 2,
-      "sku": "209491-01-W36",
-      "bc": "5057794160736"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209491-01-W37",
-      "bc": "5057794160743"
-     },
-     {
-      "s": "38",
-      "q": 1,
-      "sku": "209491-01-W38",
-      "bc": "5057794160750"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209491-01-W39",
-      "bc": "5057794160767"
-     }
-    ],
     "imgs": [
      "img/209491-01_side.jpg",
      "img/209491-01_pair.jpg",
      "img/209491-01_back.jpg",
      "img/209491-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209491-04",
     "g": "W",
-    "tier": "full",
     "price": 6800,
-    "sale": null,
     "colour": "Space Dye",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 2,
-      "sku": "209491-04-W35",
-      "bc": "5057794190368"
-     }
-    ],
     "imgs": [
      "img/209491-04_side.jpg",
      "img/209491-04_pair.jpg",
      "img/209491-04_back.jpg",
      "img/209491-04_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209491-11",
     "g": "W",
-    "tier": "full",
     "price": 6800,
-    "sale": null,
     "colour": "Wood Rose",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 1,
-      "sku": "209491-11-W37",
-      "bc": "5057794249042"
-     }
-    ],
     "imgs": [
      "img/209491-11_side.jpg",
      "img/209491-11_pair.jpg",
      "img/209491-11_back.jpg",
      "img/209491-11_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209491-12",
     "g": "W",
-    "tier": "full",
     "price": 6800,
-    "sale": null,
     "colour": "Obsidian/ Spacedye",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209491-12-W36",
-      "bc": "5057794261853"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209491-12-W37",
-      "bc": "5057794261860"
-     }
-    ],
     "imgs": [
      "img/209491-12_side.jpg",
      "img/209491-12_pair.jpg",
      "img/209491-12_back.jpg",
      "img/209491-12_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "モータス フレックス (W)",
@@ -1765,218 +1018,86 @@
    {
     "code": "209548-05",
     "g": "W",
-    "tier": "full",
     "price": 7480,
-    "sale": null,
     "colour": "Eclipse",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 2,
-      "sku": "209548-05-W36",
-      "bc": "5057794285712"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209548-05-W37",
-      "bc": "5057794285705"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209548-05-W38",
-      "bc": "5057794285699"
-     }
-    ],
     "imgs": [
      "img/209548-05_side.jpg",
      "img/209548-05_pair.jpg",
      "img/209548-05_back.jpg",
      "img/209548-05_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209548-07",
     "g": "W",
-    "tier": "full",
     "price": 7480,
-    "sale": null,
     "colour": "Arctic Wolf",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209548-07-W36",
-      "bc": "5057794262843"
-     }
-    ],
     "imgs": [
      "img/209548-07_side.jpg",
      "img/209548-07_pair.jpg",
      "img/209548-07_back.jpg",
      "img/209548-07_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209548-14",
     "g": "W",
-    "tier": "full",
     "price": 7480,
-    "sale": null,
     "colour": "Storm Cloud",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209548-14-W37",
-      "bc": "5057794307117"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209548-14-W38",
-      "bc": "5057794307100"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209548-14-W39",
-      "bc": "5057794307094"
-     },
-     {
-      "s": "40",
-      "q": 2,
-      "sku": "209548-14-W40",
-      "bc": "5057794307087"
-     }
-    ],
     "imgs": [
      "img/209548-14_side.jpg",
      "img/209548-14_pair.jpg",
      "img/209548-14_back.jpg",
      "img/209548-14_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309648-05",
     "g": "M",
-    "tier": "full",
     "price": 7480,
-    "sale": null,
     "colour": "Eclipse",
-    "sizes": [
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "309648-05-M42",
-      "bc": "5057794270527"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309648-05-M43",
-      "bc": "5057794270510"
-     },
-     {
-      "s": "46",
-      "q": 1,
-      "sku": "309648-05-M46",
-      "bc": "5057794270480"
-     }
-    ],
     "imgs": [
      "img/309648-05_side.jpg",
      "img/309648-05_pair.jpg",
      "img/309648-05_back.jpg",
      "img/309648-05_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "309648-06",
     "g": "M",
-    "tier": "full",
     "price": 7480,
-    "sale": null,
     "colour": "Skyway",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309648-06-M41",
-      "bc": "5057794270435"
-     },
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "309648-06-M42",
-      "bc": "5057794270428"
-     },
-     {
-      "s": "43",
-      "q": 2,
-      "sku": "309648-06-M43",
-      "bc": "5057794270411"
-     }
-    ],
     "imgs": [
      "img/309648-06_side.jpg",
      "img/309648-06_pair.jpg",
      "img/309648-06_back.jpg",
      "img/309648-06_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309648-15",
     "g": "M",
-    "tier": "full",
     "price": 7480,
-    "sale": null,
     "colour": "Storm Cloud",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309648-15-M41",
-      "bc": "5057794318298"
-     },
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "309648-15-M42",
-      "bc": "5057794318281"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309648-15-M43",
-      "bc": "5057794318274"
-     },
-     {
-      "s": "44",
-      "q": 2,
-      "sku": "309648-15-M44",
-      "bc": "5057794318267"
-     },
-     {
-      "s": "46",
-      "q": 1,
-      "sku": "309648-15-M46",
-      "bc": "5057794318243"
-     }
-    ],
     "imgs": [
      "img/309648-15_side.jpg",
      "img/309648-15_pair.jpg",
      "img/309648-15_back.jpg",
      "img/309648-15_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "モータスストレングス II (W)",
@@ -2029,86 +1150,26 @@
    {
     "code": "209553-01",
     "g": "W",
-    "tier": "full",
     "price": 6120,
-    "sale": null,
     "colour": "Tan",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209553-01-W36",
-      "bc": "5057794250741"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209553-01-W37",
-      "bc": "5057794250758"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209553-01-W38",
-      "bc": "5057794250765"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209553-01-W39",
-      "bc": "5057794250772"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209553-01-W40",
-      "bc": "5057794250789"
-     }
-    ],
     "ref_img": true,
     "imgs": [
      "img/209553-01_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": false
    },
    {
     "code": "309553-01",
     "g": "M",
-    "tier": "full",
     "price": 6120,
-    "sale": null,
     "colour": "Tan",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309553-01-M41",
-      "bc": "5057794257177"
-     },
-     {
-      "s": "42",
-      "q": 2,
-      "sku": "309553-01-M42",
-      "bc": "5057794257184"
-     },
-     {
-      "s": "43",
-      "q": 2,
-      "sku": "309553-01-M43",
-      "bc": "5057794257191"
-     },
-     {
-      "s": "44",
-      "q": 2,
-      "sku": "309553-01-M44",
-      "bc": "5057794257207"
-     }
-    ],
     "ref_img": true,
     "imgs": [
      "img/309553-01_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": true
    }
   ],
   "jp_title": "センサス II グラウンディング (W)",
@@ -2155,25 +1216,16 @@
    {
     "code": "209564-01",
     "g": "W",
-    "tier": "full",
     "price": 4930,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209564-01-W39",
-      "bc": "5057794228917"
-     }
-    ],
     "imgs": [
      "img/209564-01_side.jpg",
      "img/209564-01_pair.jpg",
      "img/209564-01_back.jpg",
      "img/209564-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "センサス イン スライド (W)",
@@ -2218,31 +1270,16 @@
    {
     "code": "209572-01",
     "g": "W",
-    "tier": "full",
     "price": 6120,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "35",
-      "q": 1,
-      "sku": "209572-01-W35",
-      "bc": "5057794181892"
-     },
-     {
-      "s": "36",
-      "q": 2,
-      "sku": "209572-01-W36",
-      "bc": "5057794181908"
-     }
-    ],
     "imgs": [
      "img/209572-01_side.jpg",
      "img/209572-01_pair.jpg",
      "img/209572-01_back.jpg",
      "img/209572-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマス ライト IV オール ウェザー (W)",
@@ -2279,62 +1316,26 @@
    {
     "code": "209576-03",
     "g": "W",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Eclipse",
-    "sizes": [
-     {
-      "s": "37",
-      "q": 3,
-      "sku": "209576-03-W37",
-      "bc": "5057794229976"
-     },
-     {
-      "s": "38",
-      "q": 3,
-      "sku": "209576-03-W38",
-      "bc": "5057794229983"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209576-03-W39",
-      "bc": "5057794229990"
-     }
-    ],
     "imgs": [
      "img/209576-03_side.jpg",
      "img/209576-03_pair.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    },
    {
     "code": "309576-03",
     "g": "M",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Eclipse",
-    "sizes": [
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "309576-03-M42",
-      "bc": "5057794236165"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "309576-03-M43",
-      "bc": "5057794236172"
-     }
-    ],
     "imgs": [
      "img/309576-03_side.jpg",
      "img/309576-03_pair.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    }
   ],
   "jp_title": "プライマス ライト ニット ナチュラル (W)",
@@ -2378,285 +1379,111 @@
    {
     "code": "209600-01",
     "g": "W",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Mineral",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209600-01-W36",
-      "bc": "5057794191457"
-     },
-     {
-      "s": "37",
-      "q": 1,
-      "sku": "209600-01-W37",
-      "bc": "5057794191464"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209600-01-W40",
-      "bc": "5057794191495"
-     }
-    ],
     "imgs": [
      "img/209600-01_side.jpg",
      "img/209600-01_pair.jpg",
      "img/209600-01_back.jpg",
      "img/209600-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209600-03",
     "g": "W",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209600-03-W36",
-      "bc": "5057794230507"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209600-03-W37",
-      "bc": "5057794230514"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209600-03-W38",
-      "bc": "5057794230521"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209600-03-W39",
-      "bc": "5057794230538"
-     },
-     {
-      "s": "40",
-      "q": 2,
-      "sku": "209600-03-W40",
-      "bc": "5057794230545"
-     }
-    ],
     "imgs": [
      "img/209600-03_side.jpg",
      "img/209600-03_pair.jpg",
      "img/209600-03_back.jpg",
      "img/209600-03_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209600-05",
     "g": "W",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Silver Birch",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 2,
-      "sku": "209600-05-W36",
-      "bc": "5057794230682"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209600-05-W37",
-      "bc": "5057794230699"
-     }
-    ],
     "imgs": [
      "img/209600-05_side.jpg",
      "img/209600-05_pair.jpg",
      "img/209600-05_back.jpg",
      "img/209600-05_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "209600-06",
     "g": "W",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Insignia Blue",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 2,
-      "sku": "209600-06-W36",
-      "bc": "5057794230774"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209600-06-W37",
-      "bc": "5057794230781"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209600-06-W38",
-      "bc": "5057794230798"
-     },
-     {
-      "s": "39",
-      "q": 1,
-      "sku": "209600-06-W39",
-      "bc": "5057794230804"
-     }
-    ],
     "imgs": [
      "img/209600-06_side.jpg",
      "img/209600-06_pair.jpg",
      "img/209600-06_back.jpg",
      "img/209600-06_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309600-01",
     "g": "M",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Mineral",
-    "sizes": [
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "309600-01-M40",
-      "bc": "5057794196230"
-     },
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309600-01-M41",
-      "bc": "5057794196247"
-     },
-     {
-      "s": "42",
-      "q": 2,
-      "sku": "309600-01-M42",
-      "bc": "5057794196254"
-     },
-     {
-      "s": "43",
-      "q": 2,
-      "sku": "309600-01-M43",
-      "bc": "5057794196261"
-     },
-     {
-      "s": "44",
-      "q": 2,
-      "sku": "309600-01-M44",
-      "bc": "5057794196278"
-     },
-     {
-      "s": "45",
-      "q": 2,
-      "sku": "309600-01-M45",
-      "bc": "5057794196285"
-     }
-    ],
     "imgs": [
      "img/309600-01_side.jpg",
      "img/309600-01_pair.jpg",
      "img/309600-01_back.jpg",
      "img/309600-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309600-03",
     "g": "M",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309600-03-M41",
-      "bc": "5057794236752"
-     },
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "309600-03-M42",
-      "bc": "5057794236769"
-     },
-     {
-      "s": "44",
-      "q": 1,
-      "sku": "309600-03-M44",
-      "bc": "5057794236783"
-     }
-    ],
     "imgs": [
      "img/309600-03_side.jpg"
     ],
-    "img_src": "jp"
+    "img_src": "jp",
+    "regular": true
    },
    {
     "code": "309600-05",
     "g": "M",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Silver Birch",
-    "sizes": [
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "309600-05-M40",
-      "bc": "5057794236943"
-     }
-    ],
     "imgs": [
      "img/309600-05_side.jpg",
      "img/309600-05_pair.jpg",
      "img/309600-05_back.jpg",
      "img/309600-05_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309600-06",
     "g": "M",
-    "tier": "full",
     "price": 6350,
-    "sale": null,
     "colour": "Insignia Blue",
-    "sizes": [
-     {
-      "s": "45",
-      "q": 1,
-      "sku": "309600-06-M45",
-      "bc": "5057794244009"
-     }
-    ],
     "imgs": [
      "img/309600-06_side.jpg",
      "img/309600-06_pair.jpg",
      "img/309600-06_back.jpg",
      "img/309600-06_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマス トレイル FG 3.5 (W)",
@@ -2704,102 +1531,30 @@
    {
     "code": "209631-11",
     "g": "W",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Chocolate Truffle",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209631-11-W36",
-      "bc": "5057794323414"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209631-11-W37",
-      "bc": "5057794323407"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209631-11-W38",
-      "bc": "5057794323391"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209631-11-W39",
-      "bc": "5057794323384"
-     },
-     {
-      "s": "40",
-      "q": 2,
-      "sku": "209631-11-W40",
-      "bc": "5057794323377"
-     }
-    ],
     "imgs": [
      "img/209631-11_side.jpg",
      "img/209631-11_pair.jpg",
      "img/209631-11_back.jpg",
      "img/209631-11_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    },
    {
     "code": "309631-11",
     "g": "M",
-    "tier": "full",
     "price": 5780,
-    "sale": null,
     "colour": "Chocolate Truffle",
-    "sizes": [
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "309631-11-M40",
-      "bc": "5057794333550"
-     },
-     {
-      "s": "41",
-      "q": 2,
-      "sku": "309631-11-M41",
-      "bc": "5057794333567"
-     },
-     {
-      "s": "42",
-      "q": 2,
-      "sku": "309631-11-M42",
-      "bc": "5057794333574"
-     },
-     {
-      "s": "43",
-      "q": 2,
-      "sku": "309631-11-M43",
-      "bc": "5057794333581"
-     },
-     {
-      "s": "44",
-      "q": 2,
-      "sku": "309631-11-M44",
-      "bc": "5057794333598"
-     },
-     {
-      "s": "45",
-      "q": 1,
-      "sku": "309631-11-M45",
-      "bc": "5057794333604"
-     }
-    ],
     "imgs": [
      "img/309631-11_side.jpg",
      "img/309631-11_pair.jpg",
      "img/309631-11_back.jpg",
      "img/309631-11_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "プライマス フロー ニット (W)",
@@ -2850,49 +1605,16 @@
    {
     "code": "209646-06",
     "g": "W",
-    "tier": "full",
     "price": 6800,
-    "sale": null,
     "colour": "Sand",
-    "sizes": [
-     {
-      "s": "36",
-      "q": 1,
-      "sku": "209646-06-W36",
-      "bc": "5057794307414"
-     },
-     {
-      "s": "37",
-      "q": 2,
-      "sku": "209646-06-W37",
-      "bc": "5057794307407"
-     },
-     {
-      "s": "38",
-      "q": 2,
-      "sku": "209646-06-W38",
-      "bc": "5057794307391"
-     },
-     {
-      "s": "39",
-      "q": 2,
-      "sku": "209646-06-W39",
-      "bc": "5057794307384"
-     },
-     {
-      "s": "40",
-      "q": 1,
-      "sku": "209646-06-W40",
-      "bc": "5057794307377"
-     }
-    ],
     "imgs": [
      "img/209646-06_side.jpg",
      "img/209646-06_pair.jpg",
      "img/209646-06_back.jpg",
      "img/209646-06_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": false
    }
   ],
   "jp_title": "モータスフレックス ナチュラル (W)",
@@ -2933,37 +1655,16 @@
    {
     "code": "305102-01",
     "g": "M",
-    "tier": "full",
     "price": 5440,
-    "sale": null,
     "colour": "Obsidian",
-    "sizes": [
-     {
-      "s": "41",
-      "q": 3,
-      "sku": "305102-01-M41",
-      "bc": "5057794177352"
-     },
-     {
-      "s": "42",
-      "q": 3,
-      "sku": "305102-01-M42",
-      "bc": "5057794177369"
-     },
-     {
-      "s": "43",
-      "q": 3,
-      "sku": "305102-01-M43",
-      "bc": "5057794177376"
-     }
-    ],
     "imgs": [
      "img/305102-01_side.jpg",
      "img/305102-01_pair.jpg",
      "img/305102-01_back.jpg",
      "img/305102-01_inside.jpg"
     ],
-    "img_src": "gl"
+    "img_src": "gl",
+    "regular": true
    }
   ],
   "jp_title": "ラー IV (M)",
