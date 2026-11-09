@@ -87,7 +87,84 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/motus-strength-womens",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Blue Tint",
+    "W": ""
+   },
+   {
+    "name": "Bright White/Grey",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Obsidian/Grey",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Sunset Ibis",
+    "W": ""
+   },
+   {
+    "name": "Dusty Rose",
+    "W": "event"
+   },
+   {
+    "name": "Storm Cloud",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Forest Green/Acid Lime",
+    "M": ""
+   },
+   {
+    "name": "Glacial Green",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": null,
+  "i18n": {
+   "en": {
+    "tagline": "Train like a human: build strength for a lifetime of movement",
+    "intro": "Lifting, climbing, jumping, running, rolling. The Motus Strength is training footwear that combines strength and flexibility. It follows your every movement closely and helps bring out your natural strength to the full.",
+    "feats": [
+     {
+      "t": "",
+      "d": "Motus Strength outsole with enhanced traction for more powerful training."
+     },
+     {
+      "t": "",
+      "d": "Active Ortholite Performance insole made from 98% recycled PU foam, reducing waste and the use of virgin plastic."
+     },
+     {
+      "t": "",
+      "d": "Breathable, lightweight and comfortable mesh."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "เทรนนิ่งอย่างเป็นธรรมชาติของมนุษย์ ดึงความแข็งแรงออกมาเพื่อแอคทีฟได้ตลอดชีวิต",
+    "intro": "ยก ปีน กระโดด วิ่ง กลิ้ง – MOTUS STRENGTH คือรองเท้าเทรนนิ่งที่มีทั้งความแข็งแรงและความยืดหยุ่นในคู่เดียว ตอบสนองทุกการเคลื่อนไหวของคุณได้อย่างแนบแน่น และช่วยดึงพลังที่แท้จริงของร่างกายออกมาได้อย่างเต็มที่ค่ะ",
+    "feats": [
+     {
+      "t": "",
+      "d": "พื้นรองเท้า Motus Strength outsole เพิ่มการยึดเกาะ เพื่อการเทรนนิ่งที่ทรงพลังยิ่งขึ้น"
+     },
+     {
+      "t": "",
+      "d": "แผ่นรองเท้า Active Ortholite Performance insole ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "",
+      "d": "ใช้ผ้าตาข่าย (mesh) ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "PRIMUS LITE 3.5",
@@ -174,7 +251,76 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/primus-lite-3-5-womens",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Mineral",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Obsidian",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Dusty Rose",
+    "W": "event"
+   },
+   {
+    "name": "Midnight",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Fig",
+    "W": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "169"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "All-round barefoot training footwear – a step towards recyclable, circular footwear",
+    "intro": "The Primus Lite 3.5 is Vivobarefoot's signature all-round training footwear. Its new upper brings it a step closer to circular footwear. It is designed to unlock natural movement and natural strength across a wide range of training, starting with running. Recommended both for experienced barefoot cross-trainers and for people trying barefoot performance for the first time.",
+    "feats": [
+     {
+      "t": "Primus outsole",
+      "d": "Brings your feet as close to the ground as possible."
+     },
+     {
+      "t": "",
+      "d": "Ortholite insole: the Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+     },
+     {
+      "t": "Breathable mesh",
+      "d": "Breathable, lightweight and comfortable."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "รองเท้าเทรนนิ่งแบบ barefoot ใช้ได้รอบด้าน – อีกก้าวสู่รองเท้าที่รีไซเคิลได้และหมุนเวียนได้",
+    "intro": "PRIMUS LITE 3.5 คือรองเท้าเทรนนิ่งอเนกประสงค์ที่เป็นเหมือนตัวแทนของ Vivobarefoot อัปเปอร์แบบใหม่ทำให้ใกล้เคียงกับรองเท้าแบบหมุนเวียน (circular) มากขึ้น ออกแบบมาเพื่อดึงการเคลื่อนไหวและความแข็งแรงตามธรรมชาติออกมา ทั้งการวิ่งและการเทรนนิ่งหลากหลายรูปแบบ เหมาะทั้งกับผู้ที่เทรนแบบ barefoot มาอย่างช่ำชอง และผู้ที่เพิ่งเริ่มลอง barefoot เป็นครั้งแรกค่ะ",
+    "feats": [
+     {
+      "t": "Primus outsole",
+      "d": "ช่วยให้เท้าอยู่ใกล้พื้นมากที่สุดเท่าที่จะเป็นไปได้"
+     },
+     {
+      "t": "",
+      "d": "Ortholite insole: แผ่นรองเท้า Active Ortholite Performance insole ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "PRIMUS FLOW",
@@ -188,7 +334,7 @@
     "code": "209578-01",
     "g": "W",
     "price": 6630,
-    "colour": "White/Neon Orange",
+    "colour": "Bright White/Neon Orange",
     "imgs": [
      "img/209578-01_side.jpg",
      "img/209578-01_pair.jpg",
@@ -266,7 +412,86 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/primus-flow-womens",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Bright White/Neon Orange",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Dark Shadow",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Coconut",
+    "W": "",
+    "M": "event"
+   },
+   {
+    "name": "Obsidian/Cherry Tomato",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Sweet Lavender",
+    "W": "",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "159"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Run feeling your connection to the Earth with every step",
+    "intro": "Meet the Primus Flow, the latest model in the Primus series. Running footwear designed for speed and agility to unlock your full human potential, for a barefoot feel like never before. At just 150g, with a 6mm sole (4mm midsole + 2mm outsole), it sharpens your awareness of every movement. Footwear made for feeling.",
+    "feats": [
+     {
+      "t": "Breathable mesh",
+      "d": "Breathable, lightweight and comfortable."
+     },
+     {
+      "t": "No insole",
+      "d": "Without an insole, you sit closer to the ground for a feel closer to barefoot."
+     },
+     {
+      "t": "Primus Flow outsole",
+      "d": "Reconnect with your natural human senses."
+     },
+     {
+      "t": "Vegan*",
+      "d": "Main materials are synthetic, not animal-derived."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "วิ่งไปพร้อมสัมผัสถึงความเชื่อมโยงกับโลกในทุกก้าว",
+    "intro": "PRIMUS FLOW รุ่นล่าสุดของซีรีส์ Primus มาแล้ว รองเท้าวิ่งที่ออกแบบมาเพื่อความเร็วและความคล่องตัว ดึงศักยภาพของร่างกายออกมาได้สูงสุด ให้คุณสัมผัสความรู้สึกแบบ barefoot ที่ไม่เคยมีมาก่อน น้ำหนักเพียง 150g พร้อมพื้นหนา 6mm (มิดโซล 4mm + พื้นนอก 2mm) ช่วยให้รับรู้ทุกการเคลื่อนไหวได้ชัดเจนขึ้น เป็นรองเท้าที่ทำมาเพื่อ \"สัมผัส\" อย่างแท้จริงค่ะ",
+    "feats": [
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     },
+     {
+      "t": "ไม่มีแผ่นรองเท้า",
+      "d": "เมื่อไม่มีแผ่นรองเท้า เท้าจะอยู่ใกล้พื้นมากขึ้น ให้ความรู้สึกใกล้เคียงกับเท้าเปล่า"
+     },
+     {
+      "t": "Primus Flow outsole",
+      "d": "กลับมาเชื่อมต่อกับประสาทสัมผัสตามธรรมชาติของมนุษย์อีกครั้ง"
+     },
+     {
+      "t": "วีแกน*",
+      "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "GOBI II SNEAKER PREMIUM LEATHER",
@@ -331,6 +556,88 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/gobi-ii-sneaker-premium-leather-womens",
    "M": "https://www.vivobarefoot.com/rw/gobi-ii-sneaker-premium-leather-mens"
+  },
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Limestone",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Desert Sand",
+    "W": ""
+   },
+   {
+    "name": "Limestone Dusty Green",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Twilight Mauve",
+    "W": ""
+   },
+   {
+    "name": "Tan",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Sand/Fig",
+    "W": ""
+   },
+   {
+    "name": "Triple Obsidian",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "396"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "A further step towards fully biodegradable barefoot footwear",
+    "intro": "This is our most natural style yet, constructed with 98% natural materials and a 100% natural outsole made in partnership with NFW. With its classic sneaker outline, innovative materials, and barefoot fit and feel, the Gobi Sneaker Premium redefines what it means to move as nature intended.",
+    "feats": [
+     {
+      "t": "NFW PLIANT™ Gobi outsole",
+      "d": "Outsole made from 100% natural materials."
+     },
+     {
+      "t": "Gobi Premium cork insole",
+      "d": "Our Everyday cork insole, designed especially for the Gobi Premium. Made with 98% natural cork, which is naturally antibacterial."
+     },
+     {
+      "t": "Leather footbed",
+      "d": "Take off your socks and enjoy the feel of natural leather."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "อีกก้าวสู่รองเท้าแบบ barefoot ที่ย่อยสลายได้ทางชีวภาพอย่างสมบูรณ์",
+    "intro": "รุ่นที่ใกล้เคียงธรรมชาติที่สุดเท่าที่ Vivobarefoot เคยทำมา ประกอบด้วยวัสดุธรรมชาติ 98% และใช้พื้นรองเท้าที่ทำจากวัสดุธรรมชาติ 100% ซึ่งพัฒนาร่วมกับ NFW (Natural Fiber Welding) ด้วยดีไซน์สนีกเกอร์คลาสสิก วัสดุที่ล้ำสมัย และความกระชับพร้อมสัมผัสแบบเท้าเปล่า GOBI SNEAKER PREMIUM ชวนให้เรากลับมาคิดอีกครั้งว่าการเคลื่อนไหวตามธรรมชาติคืออะไร *สี SAND/FIG มาพร้อมเชือกรองเท้า 2 สี (สีขาวและสี Fig) ค่ะ",
+    "feats": [
+     {
+      "t": "NFW PLIANT™ Gobi outsole",
+      "d": "พื้นรองเท้าที่ทำจากวัสดุธรรมชาติ 100%"
+     },
+     {
+      "t": "Gobi Premium cork insole",
+      "d": "แผ่นรองเท้า Everyday cork insole ที่ออกแบบมาเฉพาะสำหรับ Gobi Premium ใช้ไม้ก๊อกธรรมชาติ 98% ซึ่งมีคุณสมบัติต้านแบคทีเรียตามธรรมชาติ"
+     },
+     {
+      "t": "พื้นด้านในหนังแท้",
+      "d": "ถอดถุงเท้าออก แล้วสัมผัสความรู้สึกเฉพาะตัวของหนังแท้จากธรรมชาติ"
+     }
+    ]
+   }
   }
  },
  {
@@ -391,7 +698,62 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/geo-court-iv-womens",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Bright White",
+    "W": "regular",
+    "M": "event"
+   },
+   {
+    "name": "Obsidian",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "307"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Soft, premium leather sneaker for everyday freedom",
+    "intro": "Style and comfort, all in one. The Geo Court IV is a barefoot sneaker made from soft chrome-free leather, supporting your natural movement every day.",
+    "feats": [
+     {
+      "t": "",
+      "d": "Geo outsole"
+     },
+     {
+      "t": "Cork & recycled PU (polyurethane) insole",
+      "d": "An insole made from recycled PU, topped with a layer of naturally antibacterial cork."
+     },
+     {
+      "t": "Chrome-free leather",
+      "d": "Leather tanned without chrome (a heavy metal)."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "สนีกเกอร์หนังพรีเมียมเนื้อนุ่ม เพื่ออิสระในทุกวัน",
+    "intro": "ทั้งสไตล์และความสบาย รวมอยู่ในคู่เดียว GEO COURT IV คือสนีกเกอร์แบบ barefoot ที่ทำจากหนังปลอดโครเมียม (chrome-free) เนื้อนุ่ม ช่วยรองรับการเคลื่อนไหวตามธรรมชาติของคุณในทุกวันค่ะ",
+    "feats": [
+     {
+      "t": "",
+      "d": "Geo outsole"
+     },
+     {
+      "t": "Cork & recycled PU (polyurethane) insole",
+      "d": "แผ่นรองเท้าทำจาก PU รีไซเคิล ด้านบนปิดทับด้วยชั้นไม้ก๊อกธรรมชาติที่ต้านแบคทีเรีย"
+     },
+     {
+      "t": "หนังปลอดโครเมียม",
+      "d": "หนังที่ฟอกโดยไม่ใช้โครเมียม (โลหะหนัก)"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "PRIMUS TRAIL KNIT FG",
@@ -404,7 +766,7 @@
     "code": "209099-25",
     "g": "W",
     "price": 6290,
-    "colour": "Obsidian",
+    "colour": "Obsidian/Obsidian",
     "imgs": [
      "img/209099-25_side.jpg",
      "img/209099-25_pair.jpg",
@@ -466,7 +828,134 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/primus-trail-knit-fg-clearance",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Limestone",
+    "W": ""
+   },
+   {
+    "name": "Graphite/Gum",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Arctic Wolf",
+    "W": ""
+   },
+   {
+    "name": "Storm Cloud",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Obsidian/Obsidian",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Peyote",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Clay",
+    "W": "event"
+   },
+   {
+    "name": "Purple Heather",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Forest Green",
+    "M": ""
+   },
+   {
+    "name": "Sandstone",
+    "M": ""
+   },
+   {
+    "name": "Soothing Sea",
+    "M": ""
+   },
+   {
+    "name": "Obsidian/Cherry Tomato",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": null,
+  "i18n": {
+   "en": {
+    "tagline": "Flexible yet tough on rocky ground: foot-first trail footwear",
+    "intro": "Get out into nature, barefoot! The Firm Ground (FG) sole is ideal for rough, rocky terrain, protecting your feet while keeping you connected to the ground. The knit upper allows more flexible movement, and its excellent breathability keeps your exploration going. Set your feet, body and mind free in the wild and reconnect with nature.",
+    "feats": [
+     {
+      "t": "",
+      "d": "Foot-shaped (not shoe-shaped) design lets your feet move naturally."
+     },
+     {
+      "t": "",
+      "d": "WIDE for more natural stability."
+     },
+     {
+      "t": "",
+      "d": "THIN to feel more."
+     },
+     {
+      "t": "",
+      "d": "FLEXIBLE for more natural movement."
+     },
+     {
+      "t": "",
+      "d": "Ideal for running, walking and hiking. Grippy off-road footwear that makes full use of sensory feedback."
+     },
+     {
+      "t": "",
+      "d": "Recycled knit upper with a seamless, sock-like fit keeps out sand and small stones while letting your feet move as naturally as possible."
+     },
+     {
+      "t": "",
+      "d": "Speed lacing system lets you tighten and adjust your laces quickly, so you can get out on the trail fast."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "ยืดหยุ่นแต่ลุยหินได้อย่างแข็งแกร่ง รองเท้าเทรลที่คิดถึงเท้าเป็นอันดับแรก",
+    "intro": "ออกไปสัมผัสธรรมชาติแบบ barefoot กันให้มากขึ้น! พื้นแบบ Firm Ground (FG) เหมาะอย่างยิ่งกับพื้นหินขรุขระ ปกป้องเท้าไปพร้อมกับให้ความรู้สึกเชื่อมต่อกับพื้น อัปเปอร์แบบผ้าถักช่วยให้เคลื่อนไหวได้ยืดหยุ่นยิ่งขึ้น และระบายอากาศได้ดีเยี่ยม ให้การสำรวจของคุณไม่มีสะดุด ปลดปล่อยเท้า ร่างกาย และจิตใจสู่ธรรมชาติ แล้วกลับมาเชื่อมโยงกับธรรมชาติอีกครั้งค่ะ",
+    "feats": [
+     {
+      "t": "",
+      "d": "ออกแบบตามรูปทรงเท้า (ไม่ใช่รูปทรงรองเท้า) ให้เท้าเคลื่อนไหวได้อย่างเป็นธรรมชาติ"
+     },
+     {
+      "t": "",
+      "d": "WIDE (กว้าง) เพื่อความมั่นคงที่เป็นธรรมชาติมากขึ้น"
+     },
+     {
+      "t": "",
+      "d": "THIN (บาง) เพื่อสัมผัสพื้นได้มากขึ้น"
+     },
+     {
+      "t": "",
+      "d": "FLEXIBLE (ยืดหยุ่น) เพื่อการเคลื่อนไหวที่เป็นธรรมชาติมากขึ้น"
+     },
+     {
+      "t": "",
+      "d": "เหมาะสำหรับการวิ่ง เดิน และเดินป่า รองเท้าออฟโรดที่ยึดเกาะดีเยี่ยม และใช้ประโยชน์จากการรับรู้สัมผัสของเท้าได้อย่างเต็มที่"
+     },
+     {
+      "t": "",
+      "d": "อัปเปอร์ผ้าถักรีไซเคิล กระชับไร้รอยต่อเหมือนสวมถุงเท้า ช่วยกันทรายและกรวดเล็ก ๆ เข้ารองเท้า พร้อมให้เท้าเคลื่อนไหวได้อย่างเป็นธรรมชาติที่สุด"
+     },
+     {
+      "t": "",
+      "d": "ระบบเชือกผูกเร็ว (speed lacing system) ช่วยให้รัดและปรับเชือกได้อย่างรวดเร็ว พร้อมออกเทรลได้ทันที"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "GOBI III SNEAKER LEATHER",
@@ -561,6 +1050,80 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/gobi-iii-sneaker-leather-womens",
    "M": "https://www.vivobarefoot.com/rw/gobi-iii-sneaker-leather-mens"
+  },
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "regular",
+    "M": ""
+   },
+   {
+    "name": "Limestone",
+    "W": "regular",
+    "M": "regular"
+   },
+   {
+    "name": "Tan",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Limestone Dusty Green",
+    "W": ""
+   },
+   {
+    "name": "Sand/Fig",
+    "W": ""
+   },
+   {
+    "name": "Limestone/Seaborne",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Dusty Green",
+    "M": ""
+   },
+   {
+    "name": "Triple Obsidian",
+    "M": "regular"
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "273.8"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Classic sneaker design with a barefoot fit and feel",
+    "intro": "The Gobi III Sneaker Leather combines timeless sneaker style with barefoot freedom. Made with natural materials including chrome-free premium leather, it's lightweight, flexible, and shaped like your foot, letting every step feel instinctive and effortless.",
+    "feats": [
+     {
+      "t": "Gobi outsole",
+      "d": "Open up your senses from the ground up and feel connected to where you are."
+     },
+     {
+      "t": "Cork & recycled PU insole",
+      "d": "Made from recycled polyurethane (PU), layered with naturally antibacterial cork."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "ดีไซน์สนีกเกอร์คลาสสิก พร้อมความกระชับและสัมผัสแบบ barefoot",
+    "intro": "GOBI III SNEAKER LEATHER ผสานสไตล์สนีกเกอร์ที่อยู่เหนือกาลเวลา เข้ากับความรู้สึกอิสระแบบ barefoot ใช้วัสดุธรรมชาติ รวมถึงหนังพรีเมียมปลอดโครเมียม (chrome-free) น้ำหนักเบาและยืดหยุ่น ออกแบบตามรูปทรงเท้าตามธรรมชาติ ทำให้ทุกก้าวรู้สึกเป็นธรรมชาติและสบายยิ่งขึ้นค่ะ",
+    "feats": [
+     {
+      "t": "Gobi outsole",
+      "d": "เปิดประสาทสัมผัสจากฝ่าเท้า แล้วรู้สึกถึงความเชื่อมโยงกับที่ที่คุณยืนอยู่"
+     },
+     {
+      "t": "Cork & recycled PU insole",
+      "d": "ทำจากโพลียูรีเทน (PU) รีไซเคิล ด้านบนซ้อนด้วยไม้ก๊อกธรรมชาติที่มีคุณสมบัติต้านแบคทีเรีย"
+     }
+    ]
+   }
   }
  },
  {
@@ -687,6 +1250,84 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/primus-lite-iv-womens",
    "M": "https://www.vivobarefoot.com/rw/primus-lite-iv-mens"
+  },
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "regular",
+    "M": "regular"
+   },
+   {
+    "name": "Midnight",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Mineral",
+    "W": "regular",
+    "M": "regular"
+   },
+   {
+    "name": "Dusty Rose",
+    "W": ""
+   },
+   {
+    "name": "Storm Cloud",
+    "W": "regular",
+    "M": "regular"
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "171"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "The evolved barefoot training all-rounder",
+    "intro": "Our best-selling barefoot training all-rounder, now re-engineered for smarter material use. The Primus Lite IV delivers the same trusted barefoot feel with recycled, vegan* materials - made for moving naturally, whether you're running or working out. Wide, thin and flexible to elevate every workout, now with a lighter footprint.",
+    "feats": [
+     {
+      "t": "Primus outsole",
+      "d": "Brings your feet as close to the ground as possible."
+     },
+     {
+      "t": "Ortholite insole",
+      "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+     },
+     {
+      "t": "Breathable mesh",
+      "d": "Breathable, lightweight and comfortable."
+     },
+     {
+      "t": "Vegan*",
+      "d": "Main materials are synthetic, not animal-derived."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "รองเท้าเทรนนิ่งแบบ barefoot ที่ใช้ได้รอบด้าน เวอร์ชันพัฒนาใหม่",
+    "intro": "รุ่นขายดีที่สุดของ Vivobarefoot ได้รับการออกแบบใหม่ให้ใช้วัสดุอย่างมีประสิทธิภาพมากขึ้นและลดของเสียในการผลิต Primus Lite IV ใช้วัสดุรีไซเคิลแบบ Vegan* และยังคงให้สัมผัสแบบ barefoot ที่เชื่อถือได้เหมือนเดิม รองรับการเคลื่อนไหวตามธรรมชาติ ทั้งการวิ่งและการออกกำลังกาย หน้ากว้าง บาง และยืดหยุ่น ช่วยดึงประสิทธิภาพในทุกการออกกำลังกาย พร้อมลดผลกระทบต่อสิ่งแวดล้อมลง",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Primus",
+      "d": "ช่วยให้เท้าใกล้ชิดกับพื้นมากที่สุดเท่าที่จะเป็นไปได้"
+     },
+     {
+      "t": "พื้นรองด้านใน Ortholite",
+      "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     },
+     {
+      "t": "Vegan*",
+      "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+     }
+    ]
+   }
   }
  },
  {
@@ -783,7 +1424,80 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/primus-lite-knit-womens",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Bright White",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Midnight",
+    "M": "event",
+    "W": "event"
+   },
+   {
+    "name": "Silver Birch",
+    "M": ""
+   },
+   {
+    "name": "Soothing Sea",
+    "M": ""
+   },
+   {
+    "name": "Obsidian/Cherry Tomato",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "246"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Barefoot footwear for strength training, Animal Flow and light running",
+    "intro": "The Primus Lite Knit adds extra freedom of movement and agility to the long-loved Vivobarefoot Primus Lite, with a flexible knit upper made using recycled plastic. It features a 2mm Primus outsole and an Active Ortholite Performance insole made from 98% recycled PU foam. Ideal for active lifestyles and workouts.",
+    "feats": [
+     {
+      "t": "Primus outsole",
+      "d": "Get as close to the ground as you can."
+     },
+     {
+      "t": "Ortholite insole",
+      "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+     },
+     {
+      "t": "Breathable mesh",
+      "d": "Breathable, lightweight and comfortable."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "รองเท้า barefoot สำหรับเวทเทรนนิ่ง Animal Flow และการวิ่งเบาๆ",
+    "intro": "Primus Lite Knit เพิ่มความคล่องตัวและความว่องไวให้กับ Primus Lite รุ่นที่ได้รับความนิยมมายาวนานของ Vivobarefoot ด้วยอัปเปอร์แบบผ้าถักที่ยืดหยุ่น ผลิตจากพลาสติกรีไซเคิล มาพร้อมพื้นรองเท้า Primus หนา 2mm และพื้นรองด้านใน Active Ortholite Performance ที่ผลิตจากโฟม PU รีไซเคิล 98% เหมาะกับไลฟ์สไตล์ที่กระฉับกระเฉงและการออกกำลังกาย",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Primus",
+      "d": "ใกล้ชิดกับพื้นให้มากที่สุด"
+     },
+     {
+      "t": "พื้นรองด้านใน Ortholite",
+      "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "PRIMUS TRAIL III ALL WEATHER FG",
@@ -856,6 +1570,98 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/primus-trail-iii-all-weather-fg-womens",
    "M": "https://www.vivobarefoot.com/rw/primus-trail-iii-all-weather-fg-mens"
+  },
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Dark Olive",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Pebble",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Laurel Wreath",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Moss",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Dark Olive/White",
+    "W": "",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "220"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Foot-first all-weather trail running footwear",
+    "intro": "The Primus Trail III All Weather FG is a water-resistant evolution of our popular trail running model, the Primus Trail FG. Lightweight, durable and flexible, it is designed for nimble running on hard, firm-ground trails. Made with high-performance recycled, vegan* materials, it is ready for trail running and hiking in wet, chilly conditions.",
+    "feats": [
+     {
+      "t": "Firm Ground (FG) outsole",
+      "d": "Stay steady on any ground."
+     },
+     {
+      "t": "Ortholite insole",
+      "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+     },
+     {
+      "t": "Tough rubber compound",
+      "d": "A strong rubber compound delivers excellent grip and high abrasion resistance."
+     },
+     {
+      "t": "Vegan*",
+      "d": "Main materials are synthetic, not animal-derived."
+     },
+     {
+      "t": "",
+      "d": "Made with water-repellent materials, but not waterproof. Water repellency on the fabric surface may gradually decrease with continuous use in prolonged wet conditions or with age. Depending on condition and use, consider cleaning off dirt and caring for it with a water-repellent spray."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "รองเท้าวิ่งเทรลทุกสภาพอากาศ ที่ออกแบบโดยคำนึงถึงเท้าเป็นอันดับแรก",
+    "intro": "Primus Trail III All Weather FG คือรุ่นพัฒนาของรองเท้าวิ่งเทรลยอดนิยม Primus Trail FG ให้กันน้ำได้ระดับหนึ่ง (water-resistant) น้ำหนักเบา ทนทาน และยืดหยุ่น ออกแบบมาให้วิ่งบนเส้นทางเทรลที่พื้นแข็งและแน่นได้อย่างคล่องตัว ใช้วัสดุประสิทธิภาพสูงแบบ Vegan* ที่ทำจากวัสดุรีไซเคิล รองรับการวิ่งเทรลและการเดินป่าในสภาพอากาศฝนตกบ่อยและอากาศเย็น",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Firm Ground (FG)",
+      "d": "ยืนได้มั่นคงบนพื้นทุกแบบ"
+     },
+     {
+      "t": "พื้นรองด้านใน Ortholite",
+      "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "ยางคอมพาวด์ทนทาน",
+      "d": "ใช้ยางผสมที่แข็งแรง ให้การยึดเกาะที่ดีเยี่ยมและทนต่อการสึกหรอสูง"
+     },
+     {
+      "t": "Vegan*",
+      "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+     },
+     {
+      "t": "",
+      "d": "ใช้วัสดุที่มีคุณสมบัติกันน้ำซึม (water-repellent) แต่ไม่ใช่รองเท้ากันน้ำ (waterproof) ประสิทธิภาพการกันน้ำซึมของผิวผ้าอาจลดลงทีละน้อยเมื่อใช้งานต่อเนื่องในสภาพที่สัมผัสน้ำเป็นเวลานาน หรือเมื่อใช้งานไปนานๆ แนะนำให้ทำความสะอาดคราบสกปรกและดูแลด้วยสเปรย์กันน้ำตามสภาพรองเท้าและการใช้งาน"
+     }
+    ]
+   }
   }
  },
  {
@@ -914,6 +1720,100 @@
   },
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/primus-trail-flow-womens"
+  },
+  "range": [
+   {
+    "name": "Dark Shadow",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Chocolate Torte",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Sweet Lavender",
+    "W": ""
+   },
+   {
+    "name": "Cherry Tomato",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Glacial Green",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Dark Olive",
+    "W": ""
+   },
+   {
+    "name": "Tangerine",
+    "M": ""
+   },
+   {
+    "name": "Storm Cloud",
+    "M": ""
+   },
+   {
+    "name": "Dark Olive/Gum",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "219"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Lightweight, high-performance barefoot trail footwear",
+    "intro": "Meet the new Primus Trail Flow, a natural off-road performer. This streamlined silhouette provides both exceptional grip and responsive ground feel to move mindfully across a variety of terrains. The durable, breathable 100% recycled polyester mesh upper keeps those agile feet cool and secure with engineered, anti-slip lacing.",
+    "feats": [
+     {
+      "t": "Trail Flow AT sole",
+      "d": "Lightweight with grip for running across all terrains."
+     },
+     {
+      "t": "No insole",
+      "d": "Without an insole, you sit closer to the ground for a feel closer to barefoot."
+     },
+     {
+      "t": "Breathable mesh",
+      "d": "Breathable, lightweight and comfortable."
+     },
+     {
+      "t": "Vegan*",
+      "d": "Main materials are synthetic, not animal-derived."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "รองเท้าเทรลแบบ barefoot น้ำหนักเบา ประสิทธิภาพสูง",
+    "intro": "Primus Trail Flow ใหม่ คือรองเท้าออฟโรดสำหรับการวิ่งอย่างอิสระท่ามกลางธรรมชาติ ด้วยดีไซน์ที่ลื่นไหล ให้ทั้งการยึดเกาะที่ยอดเยี่ยมและสัมผัสพื้นได้ชัดเจน เคลื่อนไหวได้อย่างคล่องตัวพร้อมรับรู้พื้นใต้เท้าในทุกสภาพพื้นที่ อัปเปอร์ผ้าตาข่ายโพลีเอสเตอร์รีไซเคิล 100% ที่ทนทานและระบายอากาศได้ดี ช่วยให้เท้าที่เคลื่อนไหวตลอดเวลาเย็นสบาย และเชือกผูกที่ออกแบบให้หลุดยาก ช่วยยึดเท้าให้กระชับ",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Trail Flow AT",
+      "d": "น้ำหนักเบาและยึดเกาะดี สำหรับวิ่งได้ทุกสภาพพื้นที่"
+     },
+     {
+      "t": "ไม่มีพื้นรองด้านใน",
+      "d": "เมื่อไม่มีพื้นรองด้านใน เท้าจะใกล้พื้นมากขึ้น ให้ความรู้สึกใกล้เคียงกับการเดินเท้าเปล่า"
+     },
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     },
+     {
+      "t": "Vegan*",
+      "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+     }
+    ]
+   }
   }
  },
  {
@@ -969,7 +1869,7 @@
     "code": "209491-12",
     "g": "W",
     "price": 6800,
-    "colour": "Obsidian/ Spacedye",
+    "colour": "Obsidian/Spacedye",
     "imgs": [
      "img/209491-12_side.jpg",
      "img/209491-12_pair.jpg",
@@ -1005,7 +1905,98 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/motus-flex-womens",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Bright White",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Space Dye",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Terracotta",
+    "W": ""
+   },
+   {
+    "name": "Purple Heather",
+    "W": ""
+   },
+   {
+    "name": "Glacial Green",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Wood Rose",
+    "W": "event"
+   },
+   {
+    "name": "Flintstone",
+    "M": ""
+   },
+   {
+    "name": "Obsidian/Spacedye",
+    "M": "",
+    "W": "event"
+   }
+  ],
+  "range_note": "",
+  "weight": null,
+  "i18n": {
+   "en": {
+    "tagline": "More freedom for your training",
+    "intro": "The Motus Flex is our most barefoot performance footwear. It brings maximum barefoot feel and flexibility to primal movement, bodyweight training, yoga and other mobility exercises.",
+    "feats": [
+     {
+      "t": "Motus Flex outsole",
+      "d": "Maximises sensory feedback from the soles of your feet."
+     },
+     {
+      "t": "Ortholite insole",
+      "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+     },
+     {
+      "t": "Breathable mesh",
+      "d": "Breathable, lightweight and comfortable."
+     },
+     {
+      "t": "",
+      "d": "Vegan"
+     }
+    ]
+   },
+   "th": {
+    "tagline": "อิสระที่มากขึ้นในการเทรนนิ่ง",
+    "intro": "Motus Flex คือรองเท้าสำหรับการออกกำลังกายที่ใกล้เคียงกับเท้าเปล่ามากที่สุด ให้สัมผัสแบบ barefoot และความยืดหยุ่นสูงสุด สำหรับ primal movement การฝึกด้วยน้ำหนักตัว โยคะ และการฝึกความคล่องตัว (mobility) อื่นๆ",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Motus Flex",
+      "d": "เพิ่มการรับรู้ความรู้สึกจากฝ่าเท้าให้มากที่สุด"
+     },
+     {
+      "t": "พื้นรองด้านใน Ortholite",
+      "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     },
+     {
+      "t": "",
+      "d": "Vegan"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "MOTUS STRENGTH II",
@@ -1137,6 +2128,94 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/motus-strength-ii-womens",
    "M": "https://www.vivobarefoot.com/rw/motus-strength-ii-mens"
+  },
+  "range": [
+   {
+    "name": "Dark Gull Gray",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Dark Olive",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Eclipse",
+    "W": "event",
+    "M": "regular"
+   },
+   {
+    "name": "Skyway",
+    "W": "",
+    "M": "event"
+   },
+   {
+    "name": "Arctic Wolf",
+    "W": "event",
+    "M": ""
+   },
+   {
+    "name": "Sepia Rose",
+    "W": ""
+   },
+   {
+    "name": "Storm Cloud",
+    "W": "event",
+    "M": "event"
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "318"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Barefoot footwear that combines strength and support",
+    "intro": "The Motus Strength II is the latest version of our pinnacle barefoot strength trainer, now with a new tongue construction for a secure, adaptable fit, plus a ribbed KPU overlay for full range of motion, enhanced flex and airflow. A supportive upper with durable, breathable mesh offers total protection and unmatched connection, while raised lugs provide grip and stability under heavy loads.",
+    "feats": [
+     {
+      "t": "Motus Strength outsole",
+      "d": "Traction designed to support and build powerful training."
+     },
+     {
+      "t": "Ortholite insole",
+      "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+     },
+     {
+      "t": "Breathable mesh",
+      "d": "Breathable, lightweight and comfortable."
+     },
+     {
+      "t": "Vegan*",
+      "d": "Main materials are synthetic, not animal-derived."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "รองเท้า barefoot ที่ให้ทั้งความแข็งแรงและการซัพพอร์ต",
+    "intro": "Motus Strength II คือรองเท้าเทรนนิ่งแบบ barefoot รุ่นพัฒนาใหม่ที่รองรับการฝึกความเข้มข้นสูง อัปเปอร์ที่ซัพพอร์ตได้ดี ผสานผ้าตาข่ายที่ทนทานและระบายอากาศได้ดีเข้ากับแผ่นเสริมความแข็งแรง ช่วยปกป้องเท้าโดยไม่ลดทอนสัมผัสแบบ barefoot พื้นรองเท้ามีปุ่มยึดเกาะ (lug) ที่ยกสูง ให้การยึดเกาะและความมั่นคงที่ดีเยี่ยม นอกจากนี้ยังปรับปรุงลิ้นรองเท้าแบบผ้าถัก ให้รองรับรูปเท้าได้หลากหลายมากขึ้น",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Motus Strength",
+      "d": "แรงยึดเกาะที่ออกแบบมาเพื่อรองรับและเสริมสร้างการเทรนนิ่งที่ทรงพลัง"
+     },
+     {
+      "t": "พื้นรองด้านใน Ortholite",
+      "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     },
+     {
+      "t": "Vegan*",
+      "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+     }
+    ]
+   }
   }
  },
  {
@@ -1204,6 +2283,71 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/sensus-ii-grounding-womens",
    "M": "https://www.vivobarefoot.com/rw/sensus-ii-grounding-mens"
+  },
+  "range": [
+   {
+    "name": "Tan",
+    "W": "event",
+    "M": "regular"
+   },
+   {
+    "name": "Obsidian Cracked Leather",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Seaborne Cracked Leather",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Dark Olive Cracked Leather",
+    "M": ""
+   }
+  ],
+  "range_note": "Sensus II Grounding",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "158.7"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Connect with the Earth. Grounding footwear rooted in ancestral wisdom",
+    "intro": "Modern footwear inspired by ancestral wisdom. Drawing inspiration from humanity's earliest foot coverings, this premium Wild Hide leather moccasin fits and feels like a glove for your feet. The Sensus II evolves the original with conductive technology - enabling grounding practice that connects your body to Earth's energy on natural surfaces.",
+    "feats": [
+     {
+      "t": "Sensus outsole",
+      "d": "Inspired by the footprints of ancient people, designed for the footprints of the future."
+     },
+     {
+      "t": "No insole",
+      "d": "Without an insole, you sit closer to the ground for a feel just like being barefoot."
+     },
+     {
+      "t": "Leather footbed",
+      "d": "We recommend wearing it without socks to enjoy the feel of the leather."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "เชื่อมต่อกับผืนโลก รองเท้า grounding ที่สืบทอดภูมิปัญญาบรรพบุรุษ",
+    "intro": "รองเท้าร่วมสมัยที่ได้แรงบันดาลใจจากภูมิปัญญาที่สืบทอดกันมาจากบรรพบุรุษ รองเท้าโมคาซินหนัง Wild Hide leather ระดับพรีเมียมคู่นี้ได้แรงบันดาลใจจากเครื่องสวมเท้ายุคแรกของมนุษย์ ให้ความรู้สึกกระชับพอดีเท้าเหมือนสวมถุงมือ Sensus II Grounding พัฒนาต่อจากรุ่นแรกด้วยเทคโนโลยีนำไฟฟ้า (conductive technology) ทำให้สามารถฝึก earthing (grounding) บนพื้นผิวธรรมชาติ เชื่อมต่อร่างกายของคุณเข้ากับพลังงานของผืนโลกได้",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Sensus",
+      "d": "ได้แรงบันดาลใจจากรอยเท้าของมนุษย์ยุคโบราณ และออกแบบมาเพื่อรอยเท้าแห่งอนาคต"
+     },
+     {
+      "t": "ไม่มีพื้นรองด้านใน",
+      "d": "เมื่อไม่มีพื้นรองด้านใน เท้าจะใกล้พื้นมากขึ้น ให้ความรู้สึกเหมือนเดินเท้าเปล่า"
+     },
+     {
+      "t": "พื้นรองเท้าด้านในหนังแท้",
+      "d": "แนะนำให้สวมโดยไม่ใส่ถุงเท้า เพื่อสัมผัสความสบายเฉพาะตัวของหนัง"
+     }
+    ]
+   }
   }
  },
  {
@@ -1258,6 +2402,72 @@
   },
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/sensus-yin-slide-womens"
+  },
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "event"
+   },
+   {
+    "name": "Dark Olive",
+    "W": ""
+   },
+   {
+    "name": "Tan",
+    "W": ""
+   },
+   {
+    "name": "Sand",
+    "W": ""
+   },
+   {
+    "name": "Skyway",
+    "W": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "180"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Slide comfortably into spring and summer",
+    "intro": "Meet the Sensus Yin Slide, taking style cues from its sister, the Sensus Yin Sandal. Just as minimal, this perfect travel companion's designed to be thrown on with something floaty or thrown in a bag for the beach or pool. Made of chrome-free leather, with minimal stitchlines and an adjustable fit for ultimate comfort.",
+    "feats": [
+     {
+      "t": "Sensus Yin outsole",
+      "d": "Reconnect with your natural human senses."
+     },
+     {
+      "t": "No insole",
+      "d": "With no insole, you sit closer to the ground for a feel closer to barefoot."
+     },
+     {
+      "t": "Leather footbed",
+      "d": "Take your socks off and enjoy the feel of natural leather."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "สวมใส่สบาย รับฤดูร้อนได้อย่างสดชื่น",
+    "intro": "Sensus Yin Slide ได้แรงบันดาลใจด้านดีไซน์มาจากรุ่นพี่น้องอย่าง Sensus Yin Sandal ด้วยดีไซน์มินิมอลเช่นเดียวกัน จับคู่กับชุดพลิ้ว ๆ ได้ง่าย หรือหยิบใส่กระเป๋าไปชายหาดหรือสระว่ายน้ำได้สบาย เป็นเพื่อนคู่ใจในทุกการเดินทาง ผลิตจากหนังฟอกแบบไม่ใช้โครเมียม (ไม่ใช้โลหะหนักในการฟอก) มีแนวตะเข็บน้อยที่สุด และปรับความกระชับได้ เพื่อความสบายสูงสุด มาสร้างช่วงเวลาสนุก ๆ มากมายในหน้าร้อนนี้ไปกับ Sensus Yin Slide กันค่ะ",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Sensus Yin outsole",
+      "d": "ช่วยให้กลับมาสัมผัสประสาทสัมผัสตามธรรมชาติของร่างกายอีกครั้ง"
+     },
+     {
+      "t": "ไม่มีแผ่นรองพื้น",
+      "d": "เมื่อไม่มีแผ่นรองพื้น เท้าจะอยู่ใกล้พื้นมากขึ้น ให้ความรู้สึกใกล้เคียงกับการเดินเท้าเปล่า"
+     },
+     {
+      "t": "พื้นด้านในหนังแท้",
+      "d": "ถอดถุงเท้าออก แล้วสัมผัสความรู้สึกเฉพาะตัวของหนังธรรมชาติ"
+     }
+    ]
+   }
   }
  },
  {
@@ -1303,7 +2513,65 @@
   "note": "",
   "jp_url": "https://vivobarefoot.co.jp/products/primus-lite-iv-all-weather-clearance",
   "en": {},
-  "gl_url": {}
+  "gl_url": {},
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "event"
+   },
+   {
+    "name": "Red Clay",
+    "W": ""
+   },
+   {
+    "name": "Dark Shadow",
+    "W": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": null,
+   "eu": null,
+   "grams": "232"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "All-weather lightweight active footwear for those who want to keep moving all year round",
+    "intro": "Get stronger every time you wear them. Ideal for running, walking and workouts, the Primus Lite All Weather is minimalist footwear for every kind of weather that lets your feet move as naturally as possible. Recommended for anyone who wants the lowest impact on the planet and the most from their training.",
+    "feats": [
+     {
+      "t": "Water-resistant upper mesh made from recycled polyester",
+      "d": "Train all year round without losing the barefoot feel."
+     },
+     {
+      "t": "Puncture resistant",
+      "d": "The sole features a lightweight, flexible 0.8mm layer of Pro5, a patented puncture-resistant layer. It protects your feet and prevents pain from ground impact, while keeping the sensory feedback through your soles."
+     },
+     {
+      "t": "",
+      "d": "The materials are water-repellent but not waterproof. Water repellency on the fabric surface can gradually decrease with continuous use in conditions with prolonged exposure to moisture, or as the material ages. Depending on the condition and use of the footwear, consider cleaning off dirt or caring for it with a water-repellent spray."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "สำหรับคนที่อยากเคลื่อนไหวได้ทั้งปี รองเท้าแอคทีฟน้ำหนักเบา ใส่ได้ทุกสภาพอากาศ",
+    "intro": "ยิ่งใส่ ยิ่งแข็งแรงขึ้น Primus Lite All Weather เหมาะสำหรับการวิ่ง การเดิน และการออกกำลังกาย เป็นรองเท้ามินิมอลที่รองรับทุกสภาพอากาศ และเปิดให้เท้าเคลื่อนไหวได้อย่างเป็นธรรมชาติที่สุด แนะนำสำหรับคนที่อยากลดผลกระทบต่อโลกให้น้อยที่สุด และได้ผลลัพธ์จากการฝึกซ้อมให้มากที่สุด",
+    "feats": [
+     {
+      "t": "อัปเปอร์ผ้าตาข่ายกันน้ำ ผลิตจากโพลีเอสเตอร์รีไซเคิล",
+      "d": "ฝึกซ้อมได้ตลอดทั้งปี โดยยังคงความรู้สึกแบบเท้าเปล่า"
+     },
+     {
+      "t": "ทนต่อการเหยียบของมีคม",
+      "d": "พื้นรองเท้ามีชั้น Pro5 ซึ่งเป็นชั้นกันการทิ่มแทงที่ได้รับสิทธิบัตร หนา 0.8mm น้ำหนักเบาและยืดหยุ่น ช่วยปกป้องเท้าและลดอาการเจ็บจากแรงกระแทกของพื้น โดยยังคงรับรู้สัมผัสจากพื้นได้ดี"
+     },
+     {
+      "t": "",
+      "d": "ใช้วัสดุที่มีคุณสมบัติกันน้ำซึม (water-repellent) แต่ไม่ใช่รองเท้ากันน้ำ (waterproof) หากใช้งานต่อเนื่องในสภาพที่สัมผัสความชื้นเป็นเวลานาน หรือเมื่อวัสดุเสื่อมสภาพตามอายุการใช้งาน คุณสมบัติกันน้ำซึมบนผิวผ้าอาจค่อย ๆ ลดลง แนะนำให้ทำความสะอาดคราบสกปรก หรือดูแลด้วยสเปรย์กันน้ำตามสภาพรองเท้าและการใช้งาน"
+     }
+    ]
+   }
+  }
  },
  {
   "name": "PRIMUS LITE KNIT NATURAL",
@@ -1366,6 +2634,73 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/primus-lite-knit-natural-womens",
    "M": "https://www.vivobarefoot.com/rw/primus-lite-knit-natural-mens"
+  },
+  "range": [
+   {
+    "name": "Dusty Green",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Coconut",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Eclipse",
+    "W": "regular",
+    "M": "regular"
+   },
+   {
+    "name": "Fig",
+    "W": ""
+   },
+   {
+    "name": "Dark Gull Gray",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Deep Ocean",
+    "W": "",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "188"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "The barefoot sneaker that brings out your full potential",
+    "intro": "Slip into the knitted sock of the Primus Lite Knit Natural - now created with a 92% Tencel™, 7% Hotmelt and 1% Roica upper - and instantly feel the benefit of fit. This super-flexible update to our beloved barefoot performance trainer is still just as ready to move however you train, just more natural.",
+    "feats": [
+     {
+      "t": "Primus outsole",
+      "d": "Brings your feet as close to the ground as possible."
+     },
+     {
+      "t": "Cork & recycled PU insole",
+      "d": "Made from recycled polyurethane (PU), topped with a layer of naturally antibacterial cork."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "สนีกเกอร์แบบเท้าเปล่าที่ช่วยดึงศักยภาพของคุณออกมาได้เต็มที่",
+    "intro": "เมื่อสวมเท้าเข้าไปในถุงเท้าถักของ Primus Lite Knit Natural คุณจะรู้สึกได้ทันทีถึงความกระชับที่โดดเด่น จากอัปเปอร์ที่ผลิตจาก Tencel™ 92%, Hotmelt 7% และ Roica 1% ยังคงจุดเด่นของรองเท้าแบบเท้าเปล่าสายเพอร์ฟอร์มานซ์รุ่นยอดนิยมไว้ครบ พร้อมอัปเดตให้ยืดหยุ่นยิ่งขึ้นและเป็นธรรมชาติมากขึ้น เคลื่อนไหวได้อย่างอิสระในทุกการฝึกซ้อม",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Primus outsole",
+      "d": "ช่วยให้เท้าอยู่ใกล้พื้นมากที่สุดเท่าที่เป็นไปได้"
+     },
+     {
+      "t": "แผ่นรองพื้น Cork & recycled PU insole",
+      "d": "ผลิตจากโพลียูรีเทน (PU) รีไซเคิล และปิดทับด้วยชั้นไม้ก๊อกที่มีคุณสมบัติต้านแบคทีเรียตามธรรมชาติ"
+     }
+    ]
+   }
   }
  },
  {
@@ -1518,6 +2853,77 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/primus-trail-fg-3-5-womens",
    "M": "https://www.vivobarefoot.com/rw/primus-trail-fg-3-5-mens"
+  },
+  "range": [
+   {
+    "name": "Mineral",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Obsidian",
+    "W": "event",
+    "M": "regular"
+   },
+   {
+    "name": "Insignia Blue",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Insignia Blue/Gum",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Silver Birch",
+    "W": "event",
+    "M": "event"
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "213"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Tough all-terrain trail footwear – a step towards recyclable, circular footwear",
+    "intro": "Hit the trail to rewild yourself and reconnect with nature. The Primus Trail 3.5 FG is a light, durable, flexible trail-running trainer that brings us one step closer to circular footwear.",
+    "feats": [
+     {
+      "t": "Firm Ground (FG)",
+      "d": "Outsole that keeps you standing firm on any ground."
+     },
+     {
+      "t": "Ortholite insole",
+      "d": "The active Ortholite performance insole is made from 98% recycled PU foam, reducing waste and the use of virgin plastic."
+     },
+     {
+      "t": "Breathable mesh",
+      "d": "Highly breathable, lightweight and comfortable."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "รองเท้าเทรลทนทาน ลุยได้ทุกภูมิประเทศ – อีกก้าวสู่รองเท้าหมุนเวียนที่รีไซเคิลได้",
+    "intro": "ออกไปบนเส้นทางเทรล เพื่อปลุกสัญชาตญาณและกลับไปเชื่อมโยงกับธรรมชาติอีกครั้ง Primus Trail FG 3.5 เป็นรองเท้าวิ่งเทรลที่น้ำหนักเบา ทนทาน และยืดหยุ่น เป็นอีกก้าวสู่รองเท้าหมุนเวียนที่รีไซเคิลได้",
+    "feats": [
+     {
+      "t": "Firm Ground (FG)",
+      "d": "พื้นรองเท้าที่ช่วยให้ยืนได้มั่นคงบนพื้นทุกแบบ"
+     },
+     {
+      "t": "แผ่นรองพื้น Ortholite insole",
+      "d": "แผ่นรองพื้น active Ortholite performance insole ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     },
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     }
+    ]
+   }
   }
  },
  {
@@ -1593,6 +2999,90 @@
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/primus-flow-knit-womens",
    "M": "https://www.vivobarefoot.com/rw/primus-flow-knit-mens"
+  },
+  "range": [
+   {
+    "name": "Skyway",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Eclipse",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Apricot",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Chocolate Truffle",
+    "W": "event",
+    "M": "event"
+   },
+   {
+    "name": "Dark Olive",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Eclipse/Gum",
+    "W": "",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "W",
+   "eu": "38",
+   "grams": "127.7"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Mindfulness in motion",
+    "intro": "The Primus Flow Knit combines natural barefoot performance with adaptive comfort. A seamless 360° knit upper creates a breathable, lightweight, sock-like fit that flexes with your foot, while an unstructured heel window supports natural alignment. Textured laces and engineered lace loops deliver secure lockdown without restricting movement.",
+    "feats": [
+     {
+      "t": "Breathable mesh",
+      "d": "Highly breathable, lightweight and comfortable."
+     },
+     {
+      "t": "No insole",
+      "d": "With no insole, you sit closer to the ground for a feel closer to barefoot."
+     },
+     {
+      "t": "Primus Flow outsole",
+      "d": "Reconnect with your body and run slowly."
+     },
+     {
+      "t": "Vegan*",
+      "d": "Main materials are synthetic, not animal-derived."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "สติในทุกการเคลื่อนไหว",
+    "intro": "Primus Flow Knit ผสานการเคลื่อนไหวอย่างเป็นธรรมชาติแบบเท้าเปล่า เข้ากับความสบายที่โอบรับเท้าได้อย่างลงตัว อัปเปอร์ถักแบบไร้ตะเข็บ 360° ให้ความกระชับเหมือนสวมถุงเท้า น้ำหนักเบา ระบายอากาศได้ดี และยืดหยุ่นตามการเคลื่อนไหวของเท้า ส่วนส้นออกแบบให้มีโครงสร้างน้อยที่สุด เพื่อรองรับการเคลื่อนไหวตามธรรมชาติของเท้า นอกจากนี้ยังมีเชือกผูกแบบมีเท็กซ์เจอร์ และห่วงร้อยเชือกที่ออกแบบตามการเคลื่อนไหวของเท้า ให้ความกระชับมั่นคงโดยไม่จำกัดการเคลื่อนไหว",
+    "feats": [
+     {
+      "t": "ผ้าตาข่ายระบายอากาศ",
+      "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+     },
+     {
+      "t": "ไม่มีแผ่นรองพื้น",
+      "d": "เมื่อไม่มีแผ่นรองพื้น เท้าจะอยู่ใกล้พื้นมากขึ้น ให้ความรู้สึกใกล้เคียงกับการเดินเท้าเปล่า"
+     },
+     {
+      "t": "พื้นรองเท้า Primus Flow outsole",
+      "d": "กลับมาเชื่อมโยงกับร่างกาย แล้ววิ่งอย่างช้า ๆ"
+     },
+     {
+      "t": "วีแกน*",
+      "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+     }
+    ]
+   }
   }
  },
  {
@@ -1643,6 +3133,68 @@
   },
   "gl_url": {
    "W": "https://www.vivobarefoot.com/rw/motus-flex-natural-womens"
+  },
+  "range": [
+   {
+    "name": "Obsidian",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Moss",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Storm Cloud",
+    "W": "",
+    "M": ""
+   },
+   {
+    "name": "Huckleberry",
+    "W": ""
+   },
+   {
+    "name": "Sand",
+    "W": "event",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "270"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Natural materials, flexible movement",
+    "intro": "The Motus Flex Natural - the same freedom and flexibility you love about the Motus Flex, now with more natural materials. It keeps the ultra-flexible, stripped-back design for primal movement, calisthenics and bodyweight training, incorporating natural yarns and an outsole made using 50% natural rubber.",
+    "feats": [
+     {
+      "t": "Motus Flex outsole",
+      "d": "A split flex design for maximum mobility and enhanced sensory feedback underfoot."
+     },
+     {
+      "t": "Ortholite insole",
+      "d": "The active Ortholite performance insole is made from 98% recycled PU foam, reducing waste and the use of virgin plastic."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "วัสดุจากธรรมชาติ เคลื่อนไหวได้อย่างยืดหยุ่น",
+    "intro": "Motus Flex Natural ยังคงความอิสระและความยืดหยุ่นที่เป็นเสน่ห์ของ Motus Flex ไว้ครบ พร้อมเลือกใช้วัสดุที่เป็นธรรมชาติมากขึ้น คงดีไซน์ที่ยืดหยุ่นและเรียบง่ายไม่มีส่วนเกิน เหมาะกับการฝึก primal movement, calisthenics และการฝึกด้วยน้ำหนักตัว โดยใช้เส้นด้ายจากธรรมชาติ และพื้นรองเท้าที่มียางธรรมชาติ 50% เป็นรองเท้าที่ใกล้ชิดธรรมชาติมากขึ้น โดยไม่ลดทอนประสิทธิภาพ",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Motus Flex outsole",
+      "d": "โครงสร้างแบบแยกสองส่วน ช่วยให้เคลื่อนไหวได้อย่างเต็มที่ และเพิ่มการรับรู้สัมผัสจากฝ่าเท้า"
+     },
+     {
+      "t": "แผ่นรองพื้น Ortholite insole",
+      "d": "แผ่นรองพื้น active Ortholite performance insole ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+     }
+    ]
+   }
   }
  },
  {
@@ -1697,6 +3249,65 @@
   },
   "gl_url": {
    "M": "https://www.vivobarefoot.com/rw/ra-iv-mens"
+  },
+  "range": [
+   {
+    "name": "Obsidian",
+    "M": "regular",
+    "W": ""
+   },
+   {
+    "name": "Bracken",
+    "M": ""
+   },
+   {
+    "name": "Tan",
+    "M": ""
+   }
+  ],
+  "range_note": "",
+  "weight": {
+   "g": "M",
+   "eu": "42",
+   "grams": "303"
+  },
+  "i18n": {
+   "en": {
+    "tagline": "Follow nature, not tradition",
+    "intro": "The Ra IV reimagines the classic Oxford through a barefoot lens - smart in appearance and uncompromising in feel and natural movement. Crafted with Wild Hide leather, organic cotton laces, and a cork insole, and sitting on a flexible 4mm Gobi outsole that keeps you connected to every step, the Ra IV is built to support strong, free feet no matter the occasion.",
+    "feats": [
+     {
+      "t": "Gobi outsole",
+      "d": "Side-stitched rather than glued."
+     },
+     {
+      "t": "Cork & recycled PU (polyurethane) insole",
+      "d": "An insole made from recycled PU, topped with a layer of naturally antibacterial cork."
+     },
+     {
+      "t": "Tough rubber compound",
+      "d": "A strong rubber compound delivers excellent grip and high abrasion resistance."
+     }
+    ]
+   },
+   "th": {
+    "tagline": "ทำตามธรรมชาติ ไม่ใช่ตามขนบเดิม",
+    "intro": "ไม่ยึดติดกับกรอบเดิม แต่ทำตามความรู้สึกตามธรรมชาติ Ra IV คือการตีความรองเท้าอ็อกซ์ฟอร์ดคลาสสิกใหม่ด้วยแนวคิดแบบเท้าเปล่า ให้ลุคที่ดูเรียบร้อยสุภาพ ควบคู่กับความรู้สึกและการเคลื่อนไหวที่เป็นธรรมชาติอย่างไม่มีลดหย่อน ใช้หนัง Wild Hide leather เชือกผูกผ้าฝ้ายออร์แกนิก และแผ่นรองพื้นไม้ก๊อก พร้อมพื้นรองเท้า Gobi outsole ให้คุณรับรู้สัมผัสได้ในทุกก้าว และรองรับเท้าที่ยืดหยุ่นและอิสระได้ในทุกโอกาส",
+    "feats": [
+     {
+      "t": "พื้นรองเท้า Gobi outsole",
+      "d": "เย็บติดด้านข้าง แทนการใช้กาว"
+     },
+     {
+      "t": "แผ่นรองพื้น Cork & recycled PU (โพลียูรีเทน) insole",
+      "d": "แผ่นรองพื้นที่ผลิตจาก PU รีไซเคิล ปิดทับผิวหน้าด้วยชั้นไม้ก๊อกที่มีคุณสมบัติต้านแบคทีเรียตามธรรมชาติ"
+     },
+     {
+      "t": "ยางคอมปาวด์ทนทาน",
+      "d": "ใช้ยางผสมคุณภาพสูง ให้การยึดเกาะที่ดีเยี่ยมและทนต่อการสึกหรอสูง"
+     }
+    ]
+   }
   }
  }
 ]

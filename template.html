@@ -1,16 +1,16 @@
 <meta charset="utf-8">
 <title>Barefoot Inc Vivo Lineup</title>
-<meta name="description" content="Barefoot Inc が扱う Vivobarefoot のレギュラー商品と、イベントだけで扱う商品。特徴・説明・画像・通常価格">
+<meta name="description" content="Barefoot Inc が扱う Vivobarefoot のレギュラー商品とイベント限定商品。特徴・説明・画像・通常価格・カラー展開(日本語 / English / ไทย)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Thai:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
   --bg:#EEF0EC; --surface:#FFFFFF; --sunk:#E3E6E0; --ink:#171A18; --muted:#5B635D; --line:#D3D8D1;
   --accent:#2F5D45; --accent-ink:#FFFFFF; --sale:#B8401F; --sale-soft:#F7E3DB; --photo:#FFFFFF;
   --chip:#E6EAE4; --focus:#2F5D45;
-  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
-  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --display:"Barlow Condensed","Noto Sans Thai","Arial Narrow",system-ui,sans-serif;
+  --body:"Noto Sans JP","Noto Sans Thai","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){
@@ -127,6 +127,22 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);max-width:760px;display
   .search{max-width:none;margin-left:0}
 }
 @media (prefers-reduced-motion:no-preference){.sw,.more,.seg button{transition:all .12s}}
+.headr{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.lang button{min-width:64px}
+html[lang="th"] .tabs a b{font-size:19px}
+.range{list-style:none;margin:0;padding:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.range li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 10px;font-size:13px;border-top:1px solid var(--line)}
+.range li:first-child{border-top:0}
+.gps{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+.gp{font-family:var(--mono);font-size:11px;padding:0 6px;border-radius:3px;white-space:nowrap}
+.gp.r{background:var(--ink);color:var(--surface)}
+.gp.e{background:var(--chip);color:var(--ink)}
+.gp.n{border:1px solid var(--line);color:var(--muted)}
+.specs .wide{grid-column:1/-1}
+.specs .wide dd{font-family:var(--body);font-size:14px;font-weight:500}
+.muted{color:var(--muted);margin:0}
+.small{font-size:11.5px;margin-top:6px}
+@media (max-width:760px){.headr{align-items:flex-start}}
 </style>
 
 <div class="wrap">
@@ -135,58 +151,142 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);max-width:760px;display
     <div class="eyebrow">Barefoot Inc · Vivobarefoot · Thailand</div>
     <h1>Vivo lineup</h1>
   </div>
-  <div class="stats" id="stats"></div>
+  <div class="headr">
+    <div class="seg lang" id="f-lang" role="group" aria-label="Language">
+      <button data-v="ja" aria-pressed="false" lang="ja">日本語</button>
+      <button data-v="en" aria-pressed="false" lang="en">English</button>
+      <button data-v="th" aria-pressed="false" lang="th">ไทย</button>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
 </header>
 
-<nav class="tabs" id="tabs" aria-label="ラインナップ">
-  <a href="#regular" data-tab="regular" aria-current="page"><b>レギュラー取扱</b><span id="t-regular"></span></a>
-  <a href="#event" data-tab="event"><b>イベント取扱</b><span id="t-event"></span></a>
+<nav class="tabs" id="tabs">
+  <a href="#regular" data-tab="regular" aria-current="page"><b data-i="tabRegular"></b><span id="t-regular"></span></a>
+  <a href="#event" data-tab="event"><b data-i="tabEvent"></b><span id="t-event"></span></a>
 </nav>
 <p class="tabnote" id="tabnote"></p>
 
-<div class="bar" role="toolbar" aria-label="絞り込み">
-  <div class="seg" id="f-g" aria-label="性別">
+<div class="bar" role="toolbar">
+  <div class="seg" id="f-g">
     <button data-v="all" aria-pressed="true">W / M</button>
-    <button data-v="W" aria-pressed="false">Women</button>
-    <button data-v="M" aria-pressed="false">Men</button>
+    <button data-v="W" aria-pressed="false" data-i="women"></button>
+    <button data-v="M" aria-pressed="false" data-i="men"></button>
   </div>
-  <div class="seg" id="f-cat" aria-label="カテゴリ">
-    <button data-v="all" aria-pressed="true">全カテゴリ</button>
+  <div class="seg" id="f-cat">
+    <button data-v="all" aria-pressed="true" data-i="allCats"></button>
     <button data-v="training" aria-pressed="false">Training</button>
     <button data-v="running" aria-pressed="false">Running</button>
     <button data-v="trail" aria-pressed="false">Trail</button>
     <button data-v="everyday" aria-pressed="false">Everyday</button>
   </div>
-  <label class="search"><input id="q" type="search" placeholder="モデル名・カラー・コード" aria-label="検索"></label>
+  <label class="search"><input id="q" type="search"></label>
   <span class="count" id="count"></span>
 </div>
 
 <main id="list"></main>
 
-<footer>
-  <div>レギュラー取扱: K Village の販促ポスター(2026年9月 SALE 10% OFF)に載っている8モデル・17カラー。イベント取扱: Terminal 21 Asok イベント在庫(VivoT21Asok Stock.xlsx の「Discout 20%」「Normal Price」シート)のうち、レギュラーに無いカラー・性別。</div>
-  <div>価格: 同ファイルの Price THB 列(セール前の通常価格)。</div>
-  <div>説明・特徴: vivobarefoot.co.jp(日本語)と vivobarefoot.com/rw(英語)の商品ページ。画像は両サイトの商品画像。ソール厚・ラグ深さ・フィットはグローバルサイト、重量は日本サイトの表記。</div>
-  <div>公式サイトに掲載が終わった旧モデル(Motus Strength、Primus Lite 3.5 など)は日本サイトの情報のみ。</div>
-</footer>
+<footer id="foot"></footer>
 </div>
 
-<dialog id="dlg" aria-label="モデル詳細"></dialog>
+<dialog id="dlg"></dialog>
 
 <script>
 const DATA = /*DATA*/;
-const CAT = {training:["Training","筋トレ・ジム・クロストレーニング"],running:["Running","ロード・トレッドミル"],trail:["Trail","トレイル・アウトドア"],everyday:["Everyday","街履き・オフィス"]};
-const GL = {W:"Women",M:"Men"};
-const st = {tab:"regular", g:"all", cat:"all", q:""};
+
+const T = {
+  ja: {
+    tabRegular:"レギュラー取扱", tabEvent:"イベント取扱",
+    noteRegular:"店舗で常時扱っている商品です。性別ごとに扱いが違うカラーがあります(例: Geo Court IV は Women のみ)。",
+    noteEvent:"レギュラーには無いが、イベントで扱ったカラー・性別です。モデル自体はレギュラーにあり、別カラーや別の性別だけがイベント扱いのものも含みます。",
+    women:"Women", men:"Men", allCats:"全カテゴリ", search:"モデル名・カラー・コード",
+    cat:{training:"筋トレ・ジム・クロストレーニング", running:"ロード・トレッドミル", trail:"トレイル・アウトドア", everyday:"街履き・オフィス"},
+    nModels:n=>`${n}モデル`, tabCount:(m,c)=>`${m}モデル · ${c}カラー`, count:(m,c)=>`${m}モデル / ${c}カラー`,
+    stModels:"モデル", stColours:"カラー(男女別)", stPrice:"通常価格の幅",
+    listPrice:"通常価格", more:"特徴・説明を見る", alsoRegular:"別カラーはレギュラー取扱",
+    close:"閉じる", spec:"Spec", sole:"ソール厚", tread:"ラグ(溝)深さ", weight:"重量(片足)", fit:"サイズ感",
+    fitTrue:"標準", fitLarge:"大きめ(1サイズ下を推奨)",
+    weightFmt:(w)=>`片足 ${w.grams}g` + (w.eu?`(${w.g==="W"?"WOMENS":"MENS"} EU${w.eu})`:""),
+    feats:"特徴", carried:"取扱カラー", notCarried:"取扱なし(公式に存在するカラー)",
+    regular:"レギュラー", event:"イベント", none:"なし",
+    rangeNote:"公式サイト(日本・グローバル)で確認できたカラーです。時期によって変わります。",
+    rangeRef:n=>`公式カラーは後継の ${n} のものです。`,
+    sensusNote:"説明と画像は、公式サイトに掲載されている後継の Sensus II Grounding のものです。",
+    jpSite:"日本公式ページ", gl:g=>`Global (${g==="W"?"Women":"Men"})`,
+    empty:"条件に合うモデルがありません。絞り込みを戻すか、検索語を変えてください。",
+    foot:["レギュラー取扱: K Village の販促ポスター(2026年9月 SALE 10% OFF)に載っている8モデル・17カラー。イベント取扱: Terminal 21 Asok イベント在庫(VivoT21Asok Stock.xlsx)のうち、レギュラーに無いカラー・性別。",
+          "価格: 同ファイルの Price THB 列(セール前の通常価格)。",
+          "説明・特徴・画像: vivobarefoot.co.jp と vivobarefoot.com/rw の商品ページ。ソール厚・ラグ深さ・サイズ感はグローバルサイト、重量は日本サイトの表記。",
+          "公式サイトに掲載が終わった旧モデル(Motus Strength、Primus Lite 3.5 など)は日本サイトの情報のみ。"],
+    g:{W:"Women",M:"Men"}
+  },
+  en: {
+    tabRegular:"Regular lineup", tabEvent:"Event only",
+    noteRegular:"Footwear we always carry in store. Some colours are carried for one gender only (e.g. Geo Court IV is Women's only).",
+    noteEvent:"Colours and genders we have carried only at events. Includes regular models where a particular colour or gender was event-only.",
+    women:"Women", men:"Men", allCats:"All categories", search:"Model, colour or code",
+    cat:{training:"Gym, strength and cross-training", running:"Road and treadmill running", trail:"Trail and outdoor", everyday:"City and office wear"},
+    nModels:n=>`${n} ${n===1?"model":"models"}`, tabCount:(m,c)=>`${m} models · ${c} colours`, count:(m,c)=>`${m} models / ${c} colours`,
+    stModels:"models", stColours:"colours (by gender)", stPrice:"list price range",
+    listPrice:"list price", more:"Features & details", alsoRegular:"Other colours are regular",
+    close:"Close", spec:"Spec", sole:"Sole thickness", tread:"Lug depth", weight:"Weight (per shoe)", fit:"Fit",
+    fitTrue:"True to size", fitLarge:"Runs large – go one size down",
+    weightFmt:(w)=>`${w.grams} g` + (w.eu?` (${w.g==="W"?"Women's":"Men's"} EU${w.eu})`:""),
+    feats:"Features", carried:"Colours we carry", notCarried:"Other colours in the range (not carried)",
+    regular:"Regular", event:"Event", none:"None",
+    rangeNote:"Colours listed on the official Japan and global websites. The range changes by season.",
+    rangeRef:n=>`Colour range shown is for ${n}, the current version.`,
+    sensusNote:"Details and images are from Sensus II Grounding, the current version on the official websites.",
+    jpSite:"Japan site", gl:g=>`Global (${g==="W"?"Women":"Men"})`,
+    empty:"No models match. Reset the filters or try another search.",
+    foot:["Regular lineup: the 8 models and 17 colours on the K Village promotion poster (Sep 2026, SALE 10% OFF). Event only: Terminal 21 Asok event stock (VivoT21Asok Stock.xlsx) in colours or genders that are not in the regular lineup.",
+          "Prices: the Price THB column of the same file (list price before any sale).",
+          "Copy, features and images: product pages on vivobarefoot.co.jp and vivobarefoot.com/rw. Sole thickness, lug depth and fit from the global site; weight from the Japan site. English and Thai copy is translated from the Japan site unless the global site has its own description.",
+          "Older models no longer on the global site (Motus Strength, Primus Lite 3.5 and others) use Japan site information only."],
+    g:{W:"Women",M:"Men"}
+  },
+  th: {
+    tabRegular:"สินค้าประจำ", tabEvent:"เฉพาะอีเวนต์",
+    noteRegular:"สินค้าที่ร้านมีจำหน่ายเป็นประจำ บางสีมีเฉพาะผู้หญิงหรือผู้ชาย (เช่น Geo Court IV มีเฉพาะผู้หญิง)",
+    noteEvent:"สีหรือเพศที่ไม่มีในสินค้าประจำ แต่เคยนำมาขายในงานอีเวนต์ รวมถึงรุ่นที่เป็นสินค้าประจำ แต่บางสีหรือบางเพศมีเฉพาะในอีเวนต์",
+    women:"ผู้หญิง", men:"ผู้ชาย", allCats:"ทุกประเภท", search:"ค้นหารุ่น สี หรือรหัส",
+    cat:{training:"เทรนนิ่ง ยิม ครอสเทรนนิ่ง", running:"วิ่งถนนและลู่วิ่ง", trail:"เทรลและกลางแจ้ง", everyday:"ใส่ในเมืองและใส่ทำงาน"},
+    nModels:n=>`${n} รุ่น`, tabCount:(m,c)=>`${m} รุ่น · ${c} สี`, count:(m,c)=>`${m} รุ่น / ${c} สี`,
+    stModels:"รุ่น", stColours:"สี (แยกชาย/หญิง)", stPrice:"ช่วงราคาปกติ",
+    listPrice:"ราคาปกติ", more:"ดูจุดเด่นและรายละเอียด", alsoRegular:"สีอื่นเป็นสินค้าประจำ",
+    close:"ปิด", spec:"สเปก", sole:"ความหนาพื้น", tread:"ความลึกดอกยาง", weight:"น้ำหนัก (ต่อข้าง)", fit:"ขนาด",
+    fitTrue:"ตรงไซซ์", fitLarge:"ใหญ่กว่าปกติ (แนะนำลด 1 ไซซ์)",
+    weightFmt:(w)=>`${w.grams} กรัม` + (w.eu?` (${w.g==="W"?"ผู้หญิง":"ผู้ชาย"} EU${w.eu})`:""),
+    feats:"จุดเด่น", carried:"สีที่ร้านมีจำหน่าย", notCarried:"สีอื่นที่มีในไลน์อัป (ร้านไม่มีจำหน่าย)",
+    regular:"ประจำ", event:"อีเวนต์", none:"ไม่มี",
+    rangeNote:"สีที่พบบนเว็บไซต์ทางการ (ญี่ปุ่นและโกลบอล) อาจเปลี่ยนแปลงตามฤดูกาล",
+    rangeRef:n=>`สีที่แสดงเป็นของ ${n} ซึ่งเป็นรุ่นปัจจุบัน`,
+    sensusNote:"รายละเอียดและรูปภาพอ้างอิงจาก Sensus II Grounding ซึ่งเป็นรุ่นปัจจุบันบนเว็บไซต์ทางการ",
+    jpSite:"เว็บไซต์ญี่ปุ่น", gl:g=>`Global (${g==="W"?"ผู้หญิง":"ผู้ชาย"})`,
+    empty:"ไม่พบรุ่นที่ตรงกับเงื่อนไข ลองล้างตัวกรองหรือเปลี่ยนคำค้นหา",
+    foot:["สินค้าประจำ: 8 รุ่น 17 สี ตามโปสเตอร์โปรโมชัน K Village (ก.ย. 2026 SALE 10% OFF) เฉพาะอีเวนต์: สินค้าในงาน Terminal 21 Asok (VivoT21Asok Stock.xlsx) ที่เป็นสีหรือเพศที่ไม่มีในสินค้าประจำ",
+          "ราคา: คอลัมน์ Price THB ในไฟล์เดียวกัน (ราคาปกติก่อนลดราคา)",
+          "คำอธิบาย จุดเด่น และรูปภาพ: หน้าสินค้าบน vivobarefoot.co.jp และ vivobarefoot.com/rw ความหนาพื้น ความลึกดอกยาง และขนาดจากเว็บไซต์โกลบอล น้ำหนักจากเว็บไซต์ญี่ปุ่น ข้อความภาษาไทยแปลจากเว็บไซต์ญี่ปุ่น",
+          "รุ่นเก่าที่ไม่มีบนเว็บไซต์โกลบอลแล้ว (Motus Strength, Primus Lite 3.5 ฯลฯ) ใช้ข้อมูลจากเว็บไซต์ญี่ปุ่นเท่านั้น"],
+    g:{W:"ผู้หญิง",M:"ผู้ชาย"}
+  }
+};
+const CATS = ["training","running","trail","everyday"];
+const CATNAME = {training:"Training",running:"Running",trail:"Trail",everyday:"Everyday"};
+const st = {tab:"regular", g:"all", cat:"all", q:"", lang:"ja"};
 const sel = {};   // model name -> selected colourway code
+let openName = null;
+const t = () => T[st.lang];
 const fmt = n => n.toLocaleString("en-US");
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const inTab = (cw, tab) => tab === "regular" ? cw.regular : !cw.regular;
-const TABNOTE = {
-  regular: "店舗で常時扱っている商品です。性別ごとに扱いが違うカラーがあります(例: Geo Court IV は Women のみ)。",
-  event: "レギュラーには無いが、イベントで扱ったカラー・性別です。モデル自体はレギュラーにあり、別カラーや別の性別だけがイベント扱いのものも含みます。"
-};
-const fitJa = f => !f ? "" : /large/i.test(f) ? "大きめ(1サイズ下を推奨)" : /true/i.test(f) ? "標準" : f;
+
+function copy(m){
+  if (st.lang === "ja") return {tagline:m.tagline, intro:m.intro_ja, feats:m.feats, sub:m.en && m.en.d};
+  const c = (m.i18n || {})[st.lang];
+  return c ? {tagline:c.tagline, intro:c.intro, feats:c.feats || []} : {tagline:m.tagline, intro:m.intro_ja, feats:m.feats};
+}
+function fitText(f){ return !f ? "" : /large/i.test(f) ? t().fitLarge : /true/i.test(f) ? t().fitTrue : f; }
 
 function cwMatch(m, cw){
   if (!inTab(cw, st.tab)) return false;
@@ -194,8 +294,8 @@ function cwMatch(m, cw){
   if (st.cat !== "all" && m.cat !== st.cat) return false;
   const q = st.q.trim().toLowerCase();
   if (!q) return true;
-  const hay = [m.name, m.jp_title, cw.colour, cw.code, GL[cw.g]].join(" ").toLowerCase();
-  return q.split(/\s+/).every(t => hay.includes(t));
+  const hay = [m.name, m.jp_title, cw.colour, cw.code, T.ja.g[cw.g], T.th.g[cw.g]].join(" ").toLowerCase();
+  return q.split(/\s+/).every(w => hay.includes(w));
 }
 
 function tabCounts(tab){
@@ -203,50 +303,55 @@ function tabCounts(tab){
   const ms = DATA.filter(m=>m.cw.some(c=>inTab(c,tab)));
   return {m: ms.length, c: cws.length, lo: Math.min(...cws.map(c=>c.price)), hi: Math.max(...cws.map(c=>c.price))};
 }
-function renderStats(){
-  for (const t of ["regular","event"]){
-    const k = tabCounts(t);
-    document.getElementById("t-"+t).textContent = `${k.m}モデル · ${k.c}カラー`;
-  }
+
+function renderChrome(){
+  const L = t();
+  document.documentElement.lang = st.lang;
+  document.querySelectorAll("[data-i]").forEach(el => { el.textContent = L[el.dataset.i]; });
+  document.getElementById("q").placeholder = L.search;
+  document.getElementById("q").setAttribute("aria-label", L.search);
+  document.getElementById("foot").innerHTML = L.foot.map(s=>`<div>${esc(s)}</div>`).join("");
+  document.querySelectorAll("#f-lang button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === st.lang));
+  for (const tb of ["regular","event"]){ const k = tabCounts(tb); document.getElementById("t-"+tb).textContent = L.tabCount(k.m, k.c); }
   const k = tabCounts(st.tab);
   document.getElementById("stats").innerHTML =
-    `<div class="stat"><b>${k.m}</b><span>モデル</span></div>
-     <div class="stat"><b>${k.c}</b><span>カラー(男女別)</span></div>
-     <div class="stat"><b>฿${fmt(k.lo)}–${fmt(k.hi)}</b><span>通常価格の幅</span></div>`;
-  document.getElementById("tabnote").textContent = TABNOTE[st.tab];
+    `<div class="stat"><b>${k.m}</b><span>${L.stModels}</span></div>
+     <div class="stat"><b>${k.c}</b><span>${L.stColours}</span></div>
+     <div class="stat"><b>฿${fmt(k.lo)}–${fmt(k.hi)}</b><span>${L.stPrice}</span></div>`;
+  document.getElementById("tabnote").textContent = st.tab === "regular" ? L.noteRegular : L.noteEvent;
   document.querySelectorAll("#tabs a").forEach(a => {
     if (a.dataset.tab === st.tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
 }
 
 function priceHTML(cw){
-  return `<div class="price"><span class="now">฿${fmt(cw.price)}</span><span class="unit">通常価格</span></div>`;
+  return `<div class="price"><span class="now">฿${fmt(cw.price)}</span><span class="unit">${t().listPrice}</span></div>`;
 }
 
 function card(m, cws){
-  let cur = cws.find(c=>c.code===sel[m.name]) || cws[0];
+  const L = t(), cp = copy(m);
+  const cur = cws.find(c=>c.code===sel[m.name]) || cws[0];
   sel[m.name] = cur.code;
-  const img = cur.imgs[0];
   return `<article class="card" data-m="${esc(m.name)}">
-    <button class="photo" data-open="${esc(m.name)}" aria-label="${esc(m.name)} の詳細を開く">
-      ${img?`<img src="${img}" alt="${esc(m.name)} ${esc(cur.colour)}" loading="lazy">`:""}
+    <button class="photo" data-open="${esc(m.name)}" aria-label="${esc(m.name)}">
+      ${cur.imgs[0]?`<img src="${cur.imgs[0]}" alt="${esc(m.name)} ${esc(cur.colour)}" loading="lazy">`:""}
     </button>
     <div class="body">
-      <div><h3 class="name">${esc(m.name)}</h3><div class="jname">${esc(m.jp_title)}</div></div>
-      ${m.tagline?`<p class="tag">${esc(m.tagline)}</p>`:""}
-      <div class="swatches" role="group" aria-label="カラー">${cws.map(c=>`<button class="sw" data-cw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${GL[c.g]})"><img src="${c.imgs[0]||""}" alt="" loading="lazy"><i>${c.g}</i></button>`).join("")}</div>
-      <div class="cwname"><b>${esc(cur.colour)}</b><span class="gpill">${GL[cur.g]}</span><span class="gpill">${cur.code}</span></div>
+      <div><h3 class="name">${esc(m.name)}</h3>${st.lang==="ja"&&m.jp_title?`<div class="jname">${esc(m.jp_title)}</div>`:""}</div>
+      ${cp.tagline?`<p class="tag">${esc(cp.tagline)}</p>`:""}
+      <div class="swatches" role="group">${cws.map(c=>`<button class="sw" data-cw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${L.g[c.g]})"><img src="${c.imgs[0]||""}" alt="" loading="lazy"><i>${c.g}</i></button>`).join("")}</div>
+      <div class="cwname"><b>${esc(cur.colour)}</b><span class="gpill">${L.g[cur.g]}</span><span class="gpill">${cur.code}</span></div>
       ${priceHTML(cur)}
-      ${st.tab==="event" && m.cw.some(c=>c.regular)?`<span class="also">別カラーはレギュラー取扱</span>`:""}
-      <button class="more" data-open="${esc(m.name)}">特徴・説明を見る</button>
+      ${st.tab==="event" && m.cw.some(c=>c.regular)?`<span class="also">${L.alsoRegular}</span>`:""}
+      <button class="more" data-open="${esc(m.name)}">${L.more}</button>
     </div>
   </article>`;
 }
 
 function render(){
-  const out = [];
+  const L = t(), out = [];
   let nM = 0, nC = 0;
-  for (const cat of Object.keys(CAT)){
+  for (const cat of CATS){
     const cards = [];
     for (const m of DATA.filter(m=>m.cat===cat)){
       const cws = m.cw.filter(c=>cwMatch(m,c));
@@ -254,43 +359,56 @@ function render(){
       nM++; nC += cws.length;
       cards.push(card(m, cws));
     }
-    if (cards.length) out.push(`<section class="cat"><h2>${CAT[cat][0]}<small>${CAT[cat][1]} · ${cards.length}モデル</small></h2><div class="grid">${cards.join("")}</div></section>`);
+    if (cards.length) out.push(`<section class="cat"><h2>${CATNAME[cat]}<small>${L.cat[cat]} · ${L.nModels(cards.length)}</small></h2><div class="grid">${cards.join("")}</div></section>`);
   }
-  document.getElementById("list").innerHTML = out.join("") || `<p class="empty">条件に合うモデルがありません。絞り込みを「すべて」に戻すか、検索語を変えてください。</p>`;
-  document.getElementById("count").textContent = `${nM}モデル / ${nC}カラー`;
+  document.getElementById("list").innerHTML = out.join("") || `<p class="empty">${L.empty}</p>`;
+  document.getElementById("count").textContent = L.count(nM, nC);
+}
+
+function rangeHTML(m){
+  const L = t();
+  const pills = (r, want) => ["W","M"].filter(g => g in r && want(r[g])).map(g =>
+    `<span class="gp ${r[g]==="regular"?"r":r[g]==="event"?"e":"n"}">${g}${r[g]?` · ${r[g]==="regular"?L.regular:L.event}`:""}</span>`).join("");
+  const carried = m.range.filter(r => ["W","M"].some(g => r[g]));
+  const other = m.range.filter(r => ["W","M"].some(g => g in r && !r[g]));
+  const list = (rows, want) => rows.length
+    ? `<ul class="range">${rows.map(r=>`<li><span>${esc(r.name)}</span><span class="gps">${pills(r, want)}</span></li>`).join("")}</ul>`
+    : `<p class="muted">${L.none}</p>`;
+  return `<div><p class="sec">${L.carried}</p>${list(carried, v => !!v)}</div>
+    <div><p class="sec">${L.notCarried}</p>${list(other, v => !v)}
+      <p class="muted small">${L.rangeNote}${m.range_note?" "+L.rangeRef(m.range_note):""}</p></div>`;
 }
 
 function openModel(name){
-  const m = DATA.find(x=>x.name===name);
+  const L = t(), m = DATA.find(x=>x.name===name), cp = copy(m);
+  openName = name;
   const cur = m.cw.find(c=>c.code===sel[name]) || m.cw[0];
   const en = m.en || {};
-  const w = m.weight_ja || [en.wW && `W ${en.wW}g`, en.wM && `M ${en.wM}g`].filter(Boolean).join(" / ");
-  const fit = en.fitW ? `W ${fitJa(en.fitW)} / M ${fitJa(en.fitM)}` : fitJa(en.fit);
-  const specs = [["ソール厚", en.sole && en.sole+"mm"],["ラグ(溝)深さ", en.tread!==undefined && en.tread!=="" && en.tread+"mm"],["重量(片足)", w],["サイズ感", fit]].filter(s=>s[1]);
-  const links = [m.jp_url && `<a href="${m.jp_url}" target="_blank" rel="noopener">日本公式ページ</a>`,
-                 ...Object.entries(m.gl_url||{}).map(([g,u])=>`<a href="${u}" target="_blank" rel="noopener">Global (${GL[g]})</a>`)].filter(Boolean);
+  const w = m.weight ? L.weightFmt(m.weight) : "";
+  const fit = en.fitW ? `W ${fitText(en.fitW)} / M ${fitText(en.fitM)}` : fitText(en.fit);
+  const specs = [[L.sole, en.sole && en.sole+"mm"],[L.tread, en.tread!==undefined && en.tread!=="" && en.tread+"mm"],[L.weight, w],[L.fit, fit]].filter(s=>s[1]);
+  const links = [m.jp_url && `<a href="${m.jp_url}" target="_blank" rel="noopener">${L.jpSite}</a>`,
+                 ...Object.entries(m.gl_url||{}).map(([g,u])=>`<a href="${u}" target="_blank" rel="noopener">${L.gl(g)}</a>`)].filter(Boolean);
   const dlg = document.getElementById("dlg");
+  dlg.setAttribute("aria-label", m.name);
   dlg.innerHTML = `<div class="dlg">
     <div class="gal">
       <div class="main"><img id="dmain" src="${cur.imgs[0]||""}" alt="${esc(m.name)} ${esc(cur.colour)}"></div>
-      <div class="thumbs" id="dthumbs">${cur.imgs.map((s,i)=>`<button data-img="${s}" aria-pressed="${i===0}" aria-label="画像 ${i+1}"><img src="${s}" alt=""></button>`).join("")}</div>
-      <div class="swatches" id="dsw">${m.cw.map(c=>`<button class="sw" data-dcw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${GL[c.g]})"><img src="${c.imgs[0]||""}" alt=""><i>${c.g}</i></button>`).join("")}</div>
-      <div class="cwname" style="color:#171A18"><b>${esc(cur.colour)}</b><span>${GL[cur.g]} · ${cur.code}</span><span class="kind ${cur.regular?"r":"e"}">${cur.regular?"レギュラー":"イベント"}</span></div>
+      <div class="thumbs" id="dthumbs">${cur.imgs.map((s,i)=>`<button data-img="${s}" aria-pressed="${i===0}" aria-label="${i+1}"><img src="${s}" alt=""></button>`).join("")}</div>
+      <div class="swatches">${m.cw.map(c=>`<button class="sw" data-dcw="${c.code}" aria-pressed="${c.code===cur.code}" title="${esc(c.colour)} (${L.g[c.g]})"><img src="${c.imgs[0]||""}" alt=""><i>${c.g}</i></button>`).join("")}</div>
+      <div class="cwname" style="color:#171A18"><b>${esc(cur.colour)}</b><span>${L.g[cur.g]} · ${cur.code}</span><span class="kind ${cur.regular?"r":"e"}">${cur.regular?L.regular:L.event}</span></div>
     </div>
     <div class="info">
-      <button class="close" id="dclose">閉じる</button>
-      <div><div class="eyebrow">${CAT[m.cat][0]} · ${esc(m.jp_title)}</div><h3>${esc(m.name)}</h3></div>
+      <button class="close" id="dclose">${L.close}</button>
+      <div><div class="eyebrow">${CATNAME[m.cat]}${st.lang==="ja"&&m.jp_title?" · "+esc(m.jp_title):""}</div><h3>${esc(m.name)}</h3></div>
       ${priceHTML(cur)}
-      ${m.tagline?`<p class="lead"><b>${esc(m.tagline)}</b></p>`:""}
-      ${m.intro_ja?`<p class="lead">${esc(m.intro_ja)}</p>`:""}
-      ${en.d?`<p class="lead en" lang="en">${esc(en.d)}</p>`:""}
-      ${m.note?`<div class="note">${esc(m.note)}</div>`:""}
-      ${specs.length?`<div><p class="sec">Spec</p><dl class="specs">${specs.map(([k,v])=>`<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>`:""}
-      ${m.feats.length?`<div><p class="sec">特徴</p><ul class="feats">${m.feats.map(f=>`<li>${f.t?`<b>${esc(f.t)}</b>`:""}${esc(f.d)}</li>`).join("")}</ul></div>`:""}
-      <div><p class="sec">カラーと通常価格</p><div class="tbl"><table>
-        <thead><tr><th>カラー</th><th>性別 · コード</th><th>取扱</th><th style="text-align:right">価格 THB</th></tr></thead>
-        <tbody>${[...m.cw].sort((a,b)=>b.regular-a.regular).map(c=>`<tr class="${c.code===cur.code?"cur":""}"><td>${esc(c.colour)}</td><td class="m">${GL[c.g]} · ${c.code}</td><td><span class="kind ${c.regular?"r":"e"}">${c.regular?"レギュラー":"イベント"}</span></td><td class="n">${fmt(c.price)}</td></tr>`).join("")}</tbody>
-      </table></div></div>
+      ${cp.tagline?`<p class="lead"><b>${esc(cp.tagline)}</b></p>`:""}
+      ${cp.intro?`<p class="lead">${esc(cp.intro)}</p>`:""}
+      ${cp.sub?`<p class="lead en" lang="en">${esc(cp.sub)}</p>`:""}
+      ${m.note?`<div class="note">${esc(L.sensusNote)}</div>`:""}
+      ${specs.length?`<div><p class="sec">${L.spec}</p><dl class="specs">${specs.map(([k,v])=>`<div class="${k===L.fit?"wide":""}"><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>`:""}
+      ${cp.feats.length?`<div><p class="sec">${L.feats}</p><ul class="feats">${cp.feats.map(f=>`<li>${f.t?`<b>${esc(f.t)}</b>`:""}${esc(f.d)}</li>`).join("")}</ul></div>`:""}
+      ${rangeHTML(m)}
       ${links.length?`<div class="links">${links.join("")}</div>`:""}
     </div></div>`;
   if (!dlg.open) dlg.showModal();
@@ -299,7 +417,7 @@ function openModel(name){
 
 document.addEventListener("click", e => {
   const sw = e.target.closest(".card .sw");
-  if (sw){ const m = sw.closest(".card").dataset.m; sel[m] = sw.dataset.cw; render(); return; }
+  if (sw){ sel[sw.closest(".card").dataset.m] = sw.dataset.cw; render(); return; }
   const op = e.target.closest("[data-open]");
   if (op){ openModel(op.dataset.open); return; }
   const dsw = e.target.closest("[data-dcw]");
@@ -308,6 +426,7 @@ document.addEventListener("click", e => {
   if (th){ document.getElementById("dmain").src = th.dataset.img; document.querySelectorAll("#dthumbs button").forEach(b=>b.setAttribute("aria-pressed", b===th)); return; }
   if (e.target.id === "dclose" || e.target.id === "dlg") document.getElementById("dlg").close();
 });
+document.getElementById("dlg").addEventListener("close", () => { openName = null; });
 for (const [id,key] of [["f-g","g"],["f-cat","cat"]]){
   document.getElementById(id).addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
@@ -316,10 +435,18 @@ for (const [id,key] of [["f-g","g"],["f-cat","cat"]]){
     render();
   });
 }
+document.getElementById("f-lang").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  st.lang = b.dataset.v;
+  try { localStorage.setItem("vivo-lineup-lang", st.lang); } catch (_) {}
+  renderChrome(); render();
+  if (openName) openModel(openName);
+});
 document.getElementById("q").addEventListener("input", e => { st.q = e.target.value; render(); });
-function setTab(t){
-  st.tab = t === "event" ? "event" : "regular";
-  renderStats(); render();
+
+function setTab(tb){
+  st.tab = tb === "event" ? "event" : "regular";
+  renderChrome(); render();
 }
 document.getElementById("tabs").addEventListener("click", e => {
   const a = e.target.closest("a[data-tab]"); if (!a) return;
@@ -328,5 +455,12 @@ document.getElementById("tabs").addEventListener("click", e => {
   setTab(a.dataset.tab);
 });
 window.addEventListener("hashchange", () => setTab(location.hash.slice(1)));
+
+(function initLang(){
+  let saved = null;
+  try { saved = localStorage.getItem("vivo-lineup-lang"); } catch (_) {}
+  const nav = (navigator.language || "").toLowerCase();
+  st.lang = T[saved] ? saved : nav.startsWith("th") ? "th" : nav.startsWith("ja") ? "ja" : "en";
+})();
 setTab(location.hash.slice(1));
 </script>

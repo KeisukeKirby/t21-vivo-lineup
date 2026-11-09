@@ -214,6 +214,62 @@ for m in models.values():
         for k in ("sizes", "sale", "tier"):
             c.pop(k, None)
 
+# ---------- official colour range per model (JP Shopify variants + global ProductGroup) ----------
+def nice(name):
+    name = re.sub(r"\s*/\s*", "/", name.strip())
+    if name.isupper() or name.islower():
+        name = re.sub(r"[A-Za-z]+", lambda w: w.group(0).capitalize(), name.lower())
+    return {"Artic Wolf": "Arctic Wolf"}.get(name, name)
+
+official = {}  # "209548-05" -> colour name
+for (mo, co), hits in jp_idx.items():
+    official[f"{mo}-{co}"] = nice(hits[0][1]["option1"])
+gl_col = SCR / "gl_colours.json"
+if gl_col.exists():
+    for code, name in json.load(open(gl_col, encoding="utf-8")).items():
+        official[code] = nice(name)  # global names are mixed case and more exact
+
+# Sensus II Tan (209553/309553) is not on either site; its current range is Sensus II Grounding.
+RANGE_CODES = {"SENSUS II": {"W": "209569", "M": "309569"}}
+
+def ckey(name):
+    return re.sub(r"[^A-Z]", "", name.upper())
+
+for name, M in models.items():
+    for c in M["cw"]:
+        c["colour"] = official.get(c["code"], nice(c["colour"]))
+    codes = dict(M["codes"])
+    for g, other, digit in (("W", "M", "3"), ("M", "W", "2")):  # 209491 (W) <-> 309491 (M)
+        if g in codes and other not in codes:
+            codes[other] = digit + codes[g][1:]
+    codes = RANGE_CODES.get(name, codes)
+    rng = collections.OrderedDict()  # colour key -> {"name", "W": status, "M": status}
+    for g, mo in codes.items():
+        for code, cname in sorted(official.items()):
+            if code.startswith(mo + "-"):
+                rng.setdefault(ckey(cname), {"name": cname})[g] = ""
+    for c in M["cw"]:
+        e = rng.setdefault(ckey(c["colour"]), {"name": c["colour"]})
+        e[c["g"]] = "regular" if c["regular"] else "event"
+    M["range"] = list(rng.values())
+    M["range_note"] = "Sensus II Grounding" if name in RANGE_CODES else ""
+
+# weight as data so each language can format it
+for M in models.values():
+    m = re.search(r"(WOMENS|MENS)?\s*(?:EU\s*(\d+))?[^\d]*?(\d+(?:\.\d)?)\s*g", M["weight_ja"])
+    m2 = re.search(r"(MENS|WOMENS)\s*EU\s*(\d+)", M["weight_ja"])
+    M["weight"] = ({"g": (m2 or m).group(1) and ("W" if (m2 or m).group(1) == "WOMENS" else "M"),
+                    "eu": (m2.group(2) if m2 else m.group(2)), "grams": m.group(3)} if m else None)
+
+# English / Thai copy (translated from the JP site copy; EN intro = official global text where it exists)
+i18n = {}
+for f in sorted(SCR.glob("copy_i18n_*.json")):
+    i18n.update(json.load(open(f, encoding="utf-8")))
+for name, M in models.items():
+    M["i18n"] = i18n.get(name, {})
+    if not M["i18n"]:
+        print("NO EN/TH COPY", name)
+
 out = list(models.values())
 json.dump(out, open(ROOT / "data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(len(out), "models,", sum(len(m["cw"]) for m in out), "colourways,",

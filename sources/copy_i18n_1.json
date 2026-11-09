@@ -1,0 +1,316 @@
+{
+  "PRIMUS LITE IV": {
+    "en": {
+      "tagline": "The evolved barefoot training all-rounder",
+      "intro": "Our best-selling barefoot training all-rounder, now re-engineered for smarter material use. The Primus Lite IV delivers the same trusted barefoot feel with recycled, vegan* materials - made for moving naturally, whether you're running or working out. Wide, thin and flexible to elevate every workout, now with a lighter footprint.",
+      "feats": [
+        {
+          "t": "Primus outsole",
+          "d": "Brings your feet as close to the ground as possible."
+        },
+        {
+          "t": "Ortholite insole",
+          "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+        },
+        {
+          "t": "Breathable mesh",
+          "d": "Breathable, lightweight and comfortable."
+        },
+        {
+          "t": "Vegan*",
+          "d": "Main materials are synthetic, not animal-derived."
+        }
+      ]
+    },
+    "th": {
+      "tagline": "รองเท้าเทรนนิ่งแบบ barefoot ที่ใช้ได้รอบด้าน เวอร์ชันพัฒนาใหม่",
+      "intro": "รุ่นขายดีที่สุดของ Vivobarefoot ได้รับการออกแบบใหม่ให้ใช้วัสดุอย่างมีประสิทธิภาพมากขึ้นและลดของเสียในการผลิต Primus Lite IV ใช้วัสดุรีไซเคิลแบบ Vegan* และยังคงให้สัมผัสแบบ barefoot ที่เชื่อถือได้เหมือนเดิม รองรับการเคลื่อนไหวตามธรรมชาติ ทั้งการวิ่งและการออกกำลังกาย หน้ากว้าง บาง และยืดหยุ่น ช่วยดึงประสิทธิภาพในทุกการออกกำลังกาย พร้อมลดผลกระทบต่อสิ่งแวดล้อมลง",
+      "feats": [
+        {
+          "t": "พื้นรองเท้า Primus",
+          "d": "ช่วยให้เท้าใกล้ชิดกับพื้นมากที่สุดเท่าที่จะเป็นไปได้"
+        },
+        {
+          "t": "พื้นรองด้านใน Ortholite",
+          "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+        },
+        {
+          "t": "ผ้าตาข่ายระบายอากาศ",
+          "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+        },
+        {
+          "t": "Vegan*",
+          "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+        }
+      ]
+    }
+  },
+  "PRIMUS LITE KNIT": {
+    "en": {
+      "tagline": "Barefoot footwear for strength training, Animal Flow and light running",
+      "intro": "The Primus Lite Knit adds extra freedom of movement and agility to the long-loved Vivobarefoot Primus Lite, with a flexible knit upper made using recycled plastic. It features a 2mm Primus outsole and an Active Ortholite Performance insole made from 98% recycled PU foam. Ideal for active lifestyles and workouts.",
+      "feats": [
+        {
+          "t": "Primus outsole",
+          "d": "Get as close to the ground as you can."
+        },
+        {
+          "t": "Ortholite insole",
+          "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+        },
+        {
+          "t": "Breathable mesh",
+          "d": "Breathable, lightweight and comfortable."
+        }
+      ]
+    },
+    "th": {
+      "tagline": "รองเท้า barefoot สำหรับเวทเทรนนิ่ง Animal Flow และการวิ่งเบาๆ",
+      "intro": "Primus Lite Knit เพิ่มความคล่องตัวและความว่องไวให้กับ Primus Lite รุ่นที่ได้รับความนิยมมายาวนานของ Vivobarefoot ด้วยอัปเปอร์แบบผ้าถักที่ยืดหยุ่น ผลิตจากพลาสติกรีไซเคิล มาพร้อมพื้นรองเท้า Primus หนา 2mm และพื้นรองด้านใน Active Ortholite Performance ที่ผลิตจากโฟม PU รีไซเคิล 98% เหมาะกับไลฟ์สไตล์ที่กระฉับกระเฉงและการออกกำลังกาย",
+      "feats": [
+        {
+          "t": "พื้นรองเท้า Primus",
+          "d": "ใกล้ชิดกับพื้นให้มากที่สุด"
+        },
+        {
+          "t": "พื้นรองด้านใน Ortholite",
+          "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+        },
+        {
+          "t": "ผ้าตาข่ายระบายอากาศ",
+          "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+        }
+      ]
+    }
+  },
+  "PRIMUS TRAIL III ALL WEATHER FG": {
+    "en": {
+      "tagline": "Foot-first all-weather trail running footwear",
+      "intro": "The Primus Trail III All Weather FG is a water-resistant evolution of our popular trail running model, the Primus Trail FG. Lightweight, durable and flexible, it is designed for nimble running on hard, firm-ground trails. Made with high-performance recycled, vegan* materials, it is ready for trail running and hiking in wet, chilly conditions.",
+      "feats": [
+        {
+          "t": "Firm Ground (FG) outsole",
+          "d": "Stay steady on any ground."
+        },
+        {
+          "t": "Ortholite insole",
+          "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+        },
+        {
+          "t": "Tough rubber compound",
+          "d": "A strong rubber compound delivers excellent grip and high abrasion resistance."
+        },
+        {
+          "t": "Vegan*",
+          "d": "Main materials are synthetic, not animal-derived."
+        },
+        {
+          "t": "",
+          "d": "Made with water-repellent materials, but not waterproof. Water repellency on the fabric surface may gradually decrease with continuous use in prolonged wet conditions or with age. Depending on condition and use, consider cleaning off dirt and caring for it with a water-repellent spray."
+        }
+      ]
+    },
+    "th": {
+      "tagline": "รองเท้าวิ่งเทรลทุกสภาพอากาศ ที่ออกแบบโดยคำนึงถึงเท้าเป็นอันดับแรก",
+      "intro": "Primus Trail III All Weather FG คือรุ่นพัฒนาของรองเท้าวิ่งเทรลยอดนิยม Primus Trail FG ให้กันน้ำได้ระดับหนึ่ง (water-resistant) น้ำหนักเบา ทนทาน และยืดหยุ่น ออกแบบมาให้วิ่งบนเส้นทางเทรลที่พื้นแข็งและแน่นได้อย่างคล่องตัว ใช้วัสดุประสิทธิภาพสูงแบบ Vegan* ที่ทำจากวัสดุรีไซเคิล รองรับการวิ่งเทรลและการเดินป่าในสภาพอากาศฝนตกบ่อยและอากาศเย็น",
+      "feats": [
+        {
+          "t": "พื้นรองเท้า Firm Ground (FG)",
+          "d": "ยืนได้มั่นคงบนพื้นทุกแบบ"
+        },
+        {
+          "t": "พื้นรองด้านใน Ortholite",
+          "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+        },
+        {
+          "t": "ยางคอมพาวด์ทนทาน",
+          "d": "ใช้ยางผสมที่แข็งแรง ให้การยึดเกาะที่ดีเยี่ยมและทนต่อการสึกหรอสูง"
+        },
+        {
+          "t": "Vegan*",
+          "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+        },
+        {
+          "t": "",
+          "d": "ใช้วัสดุที่มีคุณสมบัติกันน้ำซึม (water-repellent) แต่ไม่ใช่รองเท้ากันน้ำ (waterproof) ประสิทธิภาพการกันน้ำซึมของผิวผ้าอาจลดลงทีละน้อยเมื่อใช้งานต่อเนื่องในสภาพที่สัมผัสน้ำเป็นเวลานาน หรือเมื่อใช้งานไปนานๆ แนะนำให้ทำความสะอาดคราบสกปรกและดูแลด้วยสเปรย์กันน้ำตามสภาพรองเท้าและการใช้งาน"
+        }
+      ]
+    }
+  },
+  "PRIMUS TRAIL FLOW": {
+    "en": {
+      "tagline": "Lightweight, high-performance barefoot trail footwear",
+      "intro": "Meet the new Primus Trail Flow, a natural off-road performer. This streamlined silhouette provides both exceptional grip and responsive ground feel to move mindfully across a variety of terrains. The durable, breathable 100% recycled polyester mesh upper keeps those agile feet cool and secure with engineered, anti-slip lacing.",
+      "feats": [
+        {
+          "t": "Trail Flow AT sole",
+          "d": "Lightweight with grip for running across all terrains."
+        },
+        {
+          "t": "No insole",
+          "d": "Without an insole, you sit closer to the ground for a feel closer to barefoot."
+        },
+        {
+          "t": "Breathable mesh",
+          "d": "Breathable, lightweight and comfortable."
+        },
+        {
+          "t": "Vegan*",
+          "d": "Main materials are synthetic, not animal-derived."
+        }
+      ]
+    },
+    "th": {
+      "tagline": "รองเท้าเทรลแบบ barefoot น้ำหนักเบา ประสิทธิภาพสูง",
+      "intro": "Primus Trail Flow ใหม่ คือรองเท้าออฟโรดสำหรับการวิ่งอย่างอิสระท่ามกลางธรรมชาติ ด้วยดีไซน์ที่ลื่นไหล ให้ทั้งการยึดเกาะที่ยอดเยี่ยมและสัมผัสพื้นได้ชัดเจน เคลื่อนไหวได้อย่างคล่องตัวพร้อมรับรู้พื้นใต้เท้าในทุกสภาพพื้นที่ อัปเปอร์ผ้าตาข่ายโพลีเอสเตอร์รีไซเคิล 100% ที่ทนทานและระบายอากาศได้ดี ช่วยให้เท้าที่เคลื่อนไหวตลอดเวลาเย็นสบาย และเชือกผูกที่ออกแบบให้หลุดยาก ช่วยยึดเท้าให้กระชับ",
+      "feats": [
+        {
+          "t": "พื้นรองเท้า Trail Flow AT",
+          "d": "น้ำหนักเบาและยึดเกาะดี สำหรับวิ่งได้ทุกสภาพพื้นที่"
+        },
+        {
+          "t": "ไม่มีพื้นรองด้านใน",
+          "d": "เมื่อไม่มีพื้นรองด้านใน เท้าจะใกล้พื้นมากขึ้น ให้ความรู้สึกใกล้เคียงกับการเดินเท้าเปล่า"
+        },
+        {
+          "t": "ผ้าตาข่ายระบายอากาศ",
+          "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+        },
+        {
+          "t": "Vegan*",
+          "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+        }
+      ]
+    }
+  },
+  "MOTUS FLEX": {
+    "en": {
+      "tagline": "More freedom for your training",
+      "intro": "The Motus Flex is our most barefoot performance footwear. It brings maximum barefoot feel and flexibility to primal movement, bodyweight training, yoga and other mobility exercises.",
+      "feats": [
+        {
+          "t": "Motus Flex outsole",
+          "d": "Maximises sensory feedback from the soles of your feet."
+        },
+        {
+          "t": "Ortholite insole",
+          "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+        },
+        {
+          "t": "Breathable mesh",
+          "d": "Breathable, lightweight and comfortable."
+        },
+        {
+          "t": "",
+          "d": "Vegan"
+        }
+      ]
+    },
+    "th": {
+      "tagline": "อิสระที่มากขึ้นในการเทรนนิ่ง",
+      "intro": "Motus Flex คือรองเท้าสำหรับการออกกำลังกายที่ใกล้เคียงกับเท้าเปล่ามากที่สุด ให้สัมผัสแบบ barefoot และความยืดหยุ่นสูงสุด สำหรับ primal movement การฝึกด้วยน้ำหนักตัว โยคะ และการฝึกความคล่องตัว (mobility) อื่นๆ",
+      "feats": [
+        {
+          "t": "พื้นรองเท้า Motus Flex",
+          "d": "เพิ่มการรับรู้ความรู้สึกจากฝ่าเท้าให้มากที่สุด"
+        },
+        {
+          "t": "พื้นรองด้านใน Ortholite",
+          "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+        },
+        {
+          "t": "ผ้าตาข่ายระบายอากาศ",
+          "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+        },
+        {
+          "t": "",
+          "d": "Vegan"
+        }
+      ]
+    }
+  },
+  "MOTUS STRENGTH II": {
+    "en": {
+      "tagline": "Barefoot footwear that combines strength and support",
+      "intro": "The Motus Strength II is the latest version of our pinnacle barefoot strength trainer, now with a new tongue construction for a secure, adaptable fit, plus a ribbed KPU overlay for full range of motion, enhanced flex and airflow. A supportive upper with durable, breathable mesh offers total protection and unmatched connection, while raised lugs provide grip and stability under heavy loads.",
+      "feats": [
+        {
+          "t": "Motus Strength outsole",
+          "d": "Traction designed to support and build powerful training."
+        },
+        {
+          "t": "Ortholite insole",
+          "d": "The Active Ortholite Performance insole is made from 98% recycled PU foam, helping reduce waste and the use of virgin plastic."
+        },
+        {
+          "t": "Breathable mesh",
+          "d": "Breathable, lightweight and comfortable."
+        },
+        {
+          "t": "Vegan*",
+          "d": "Main materials are synthetic, not animal-derived."
+        }
+      ]
+    },
+    "th": {
+      "tagline": "รองเท้า barefoot ที่ให้ทั้งความแข็งแรงและการซัพพอร์ต",
+      "intro": "Motus Strength II คือรองเท้าเทรนนิ่งแบบ barefoot รุ่นพัฒนาใหม่ที่รองรับการฝึกความเข้มข้นสูง อัปเปอร์ที่ซัพพอร์ตได้ดี ผสานผ้าตาข่ายที่ทนทานและระบายอากาศได้ดีเข้ากับแผ่นเสริมความแข็งแรง ช่วยปกป้องเท้าโดยไม่ลดทอนสัมผัสแบบ barefoot พื้นรองเท้ามีปุ่มยึดเกาะ (lug) ที่ยกสูง ให้การยึดเกาะและความมั่นคงที่ดีเยี่ยม นอกจากนี้ยังปรับปรุงลิ้นรองเท้าแบบผ้าถัก ให้รองรับรูปเท้าได้หลากหลายมากขึ้น",
+      "feats": [
+        {
+          "t": "พื้นรองเท้า Motus Strength",
+          "d": "แรงยึดเกาะที่ออกแบบมาเพื่อรองรับและเสริมสร้างการเทรนนิ่งที่ทรงพลัง"
+        },
+        {
+          "t": "พื้นรองด้านใน Ortholite",
+          "d": "พื้นรองด้านใน Active Ortholite Performance ผลิตจากโฟม PU รีไซเคิล 98% ช่วยลดขยะและการใช้พลาสติกใหม่"
+        },
+        {
+          "t": "ผ้าตาข่ายระบายอากาศ",
+          "d": "ระบายอากาศได้ดี น้ำหนักเบา และสวมใส่สบาย"
+        },
+        {
+          "t": "Vegan*",
+          "d": "วัสดุหลักเป็นวัสดุสังเคราะห์ ไม่ได้มาจากสัตว์"
+        }
+      ]
+    }
+  },
+  "SENSUS II": {
+    "en": {
+      "tagline": "Connect with the Earth. Grounding footwear rooted in ancestral wisdom",
+      "intro": "Modern footwear inspired by ancestral wisdom. Drawing inspiration from humanity's earliest foot coverings, this premium Wild Hide leather moccasin fits and feels like a glove for your feet. The Sensus II evolves the original with conductive technology - enabling grounding practice that connects your body to Earth's energy on natural surfaces.",
+      "feats": [
+        {
+          "t": "Sensus outsole",
+          "d": "Inspired by the footprints of ancient people, designed for the footprints of the future."
+        },
+        {
+          "t": "No insole",
+          "d": "Without an insole, you sit closer to the ground for a feel just like being barefoot."
+        },
+        {
+          "t": "Leather footbed",
+          "d": "We recommend wearing it without socks to enjoy the feel of the leather."
+        }
+      ]
+    },
+    "th": {
+      "tagline": "เชื่อมต่อกับผืนโลก รองเท้า grounding ที่สืบทอดภูมิปัญญาบรรพบุรุษ",
+      "intro": "รองเท้าร่วมสมัยที่ได้แรงบันดาลใจจากภูมิปัญญาที่สืบทอดกันมาจากบรรพบุรุษ รองเท้าโมคาซินหนัง Wild Hide leather ระดับพรีเมียมคู่นี้ได้แรงบันดาลใจจากเครื่องสวมเท้ายุคแรกของมนุษย์ ให้ความรู้สึกกระชับพอดีเท้าเหมือนสวมถุงมือ Sensus II Grounding พัฒนาต่อจากรุ่นแรกด้วยเทคโนโลยีนำไฟฟ้า (conductive technology) ทำให้สามารถฝึก earthing (grounding) บนพื้นผิวธรรมชาติ เชื่อมต่อร่างกายของคุณเข้ากับพลังงานของผืนโลกได้",
+      "feats": [
+        {
+          "t": "พื้นรองเท้า Sensus",
+          "d": "ได้แรงบันดาลใจจากรอยเท้าของมนุษย์ยุคโบราณ และออกแบบมาเพื่อรอยเท้าแห่งอนาคต"
+        },
+        {
+          "t": "ไม่มีพื้นรองด้านใน",
+          "d": "เมื่อไม่มีพื้นรองด้านใน เท้าจะใกล้พื้นมากขึ้น ให้ความรู้สึกเหมือนเดินเท้าเปล่า"
+        },
+        {
+          "t": "พื้นรองเท้าด้านในหนังแท้",
+          "d": "แนะนำให้สวมโดยไม่ใส่ถุงเท้า เพื่อสัมผัสความสบายเฉพาะตัวของหนัง"
+        }
+      ]
+    }
+  }
+}
